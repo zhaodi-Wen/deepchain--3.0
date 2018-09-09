@@ -1,0 +1,3843 @@
+wzd@wzd-X455LJ:~/桌面/deepchain2/deepchain/deepchain$ ./run.sh
+1 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3606 validation: 0.921000 
+
+Iter-50 worker 2, loss: 1.3419 validation: 0.939000 
+
+Iter-50 worker 3, loss: 1.5110 validation: 0.916200 
+
+Iter-50 worker 4, loss: 1.3925 validation: 0.908600 
+
+Iter-50 average loss 1.4015007306869238 
+Iter-100 worker 1, loss: 1.3162 validation: 0.944800 
+
+Iter-100 worker 2, loss: 1.3300 validation: 0.957000 
+
+Iter-100 worker 3, loss: 1.5563 validation: 0.942200 
+
+Iter-100 worker 4, loss: 1.3612 validation: 0.914800 
+
+Iter-100 average loss 1.3909339618741465 
+Iter-150 worker 1, loss: 1.3468 validation: 0.959600 
+
+Iter-150 worker 2, loss: 1.3390 validation: 0.956000 
+
+Iter-150 worker 3, loss: 1.5904 validation: 0.960000 
+
+Iter-150 worker 4, loss: 1.4840 validation: 0.959400 
+
+Iter-150 average loss 1.4400294431727134 
+Iter-200 worker 1, loss: 1.2426 validation: 0.967800 
+
+Iter-200 worker 2, loss: 1.2604 validation: 0.964600 
+
+Iter-200 worker 3, loss: 1.2441 validation: 0.966600 
+
+Iter-200 worker 4, loss: 1.2473 validation: 0.963600 
+
+Iter-200 average loss 1.248584025295175 
+Iter-250 worker 1, loss: 1.4202 validation: 0.966400 
+
+Iter-250 worker 2, loss: 1.3404 validation: 0.962000 
+
+Iter-250 worker 3, loss: 1.2287 validation: 0.964800 
+
+Iter-250 worker 4, loss: 1.3570 validation: 0.968200 
+
+Iter-250 average loss 1.3365559664010875 
+Iter-300 worker 1, loss: 1.2269 validation: 0.972200 
+
+Iter-300 worker 2, loss: 1.2743 validation: 0.973200 
+
+Iter-300 worker 3, loss: 1.3665 validation: 0.969600 
+
+Iter-300 worker 4, loss: 1.2489 validation: 0.966800 
+
+Iter-300 average loss 1.2791563069239025 
+Iter-350 worker 1, loss: 1.3604 validation: 0.971200 
+
+Iter-350 worker 2, loss: 1.3043 validation: 0.976600 
+
+Iter-350 worker 3, loss: 1.2353 validation: 0.971600 
+
+Iter-350 worker 4, loss: 1.2440 validation: 0.965200 
+
+Iter-350 average loss 1.2860047294740458 
+Iter-400 worker 1, loss: 1.2261 validation: 0.974800 
+
+Iter-400 worker 2, loss: 1.2232 validation: 0.972000 
+
+Iter-400 worker 3, loss: 1.2440 validation: 0.971600 
+
+Iter-400 worker 4, loss: 1.2421 validation: 0.972000 
+
+Iter-400 average loss 1.2338299356043487 
+Iter-450 worker 1, loss: 1.2494 validation: 0.978200 
+
+Iter-450 worker 2, loss: 1.3369 validation: 0.976600 
+
+Iter-450 worker 3, loss: 1.2801 validation: 0.972400 
+
+Iter-450 worker 4, loss: 1.2457 validation: 0.967000 
+
+Iter-450 average loss 1.278035393623537 
+Iter-500 worker 1, loss: 1.2572 validation: 0.978400 
+
+Iter-500 worker 2, loss: 1.2312 validation: 0.981400 
+
+Iter-500 worker 3, loss: 1.4348 validation: 0.971600 
+
+Iter-500 worker 4, loss: 1.2456 validation: 0.973600 
+
+Iter-500 average loss 1.2922065822155209 
+Iter-550 worker 1, loss: 1.2121 validation: 0.977800 
+
+Iter-550 worker 2, loss: 1.3359 validation: 0.981000 
+
+Iter-550 worker 3, loss: 1.4556 validation: 0.975800 
+
+Iter-550 worker 4, loss: 1.2485 validation: 0.975400 
+
+Iter-550 average loss 1.3130127371779572 
+Iter-600 worker 1, loss: 1.2227 validation: 0.977800 
+
+Iter-600 worker 2, loss: 1.2741 validation: 0.981000 
+
+Iter-600 worker 3, loss: 1.2774 validation: 0.977200 
+
+Iter-600 worker 4, loss: 1.3079 validation: 0.976400 
+
+Iter-600 average loss 1.2705312016836865 
+Iter-650 worker 1, loss: 1.2241 validation: 0.979800 
+
+Iter-650 worker 2, loss: 1.2393 validation: 0.979000 
+
+Iter-650 worker 3, loss: 1.3227 validation: 0.977800 
+
+Iter-650 worker 4, loss: 1.2581 validation: 0.975600 
+
+Iter-650 average loss 1.2610407829032344 
+Iter-700 worker 1, loss: 1.2235 validation: 0.979800 
+
+Iter-700 worker 2, loss: 1.2412 validation: 0.979200 
+
+Iter-700 worker 3, loss: 1.2509 validation: 0.979000 
+
+Iter-700 worker 4, loss: 1.2770 validation: 0.972400 
+
+Iter-700 average loss 1.2481460853886017 
+Iter-750 worker 1, loss: 1.2595 validation: 0.980400 
+
+Iter-750 worker 2, loss: 1.2567 validation: 0.980800 
+
+Iter-750 worker 3, loss: 1.2473 validation: 0.978200 
+
+Iter-750 worker 4, loss: 1.2486 validation: 0.979200 
+
+Iter-750 average loss 1.2530349720158034 
+Iter-800 worker 1, loss: 1.2202 validation: 0.980800 
+
+Iter-800 worker 2, loss: 1.2277 validation: 0.982200 
+
+Iter-800 worker 3, loss: 1.2662 validation: 0.979800 
+
+Iter-800 worker 4, loss: 1.2608 validation: 0.977400 
+
+Iter-800 average loss 1.2437269441426244 
+Iter-850 worker 1, loss: 1.2746 validation: 0.981600 
+
+Iter-850 worker 2, loss: 1.2708 validation: 0.981200 
+
+Iter-850 worker 3, loss: 1.2493 validation: 0.977400 
+
+Iter-850 worker 4, loss: 1.2622 validation: 0.979000 
+
+Iter-850 average loss 1.2641979996590196 
+Iter-900 worker 1, loss: 1.2186 validation: 0.980200 
+
+Iter-900 worker 2, loss: 1.2556 validation: 0.982200 
+
+Iter-900 worker 3, loss: 1.2450 validation: 0.979600 
+
+Iter-900 worker 4, loss: 1.2800 validation: 0.977000 
+
+Iter-900 average loss 1.2498059625122444 
+Iter-950 worker 1, loss: 1.2246 validation: 0.982000 
+
+Iter-950 worker 2, loss: 1.2363 validation: 0.981200 
+
+Iter-950 worker 3, loss: 1.2753 validation: 0.981000 
+
+Iter-950 worker 4, loss: 1.2523 validation: 0.977200 
+
+Iter-950 average loss 1.2471458439517802 
+Iter-1000 worker 1, loss: 1.2207 validation: 0.982200 
+
+Iter-1000 worker 2, loss: 1.2292 validation: 0.982800 
+
+Iter-1000 worker 3, loss: 1.2490 validation: 0.981800 
+
+Iter-1000 worker 4, loss: 1.2625 validation: 0.978800 
+
+Iter-1000 average loss 1.2403276821319278 
+Iter-1050 worker 1, loss: 1.2237 validation: 0.979600 
+
+Iter-1050 worker 2, loss: 1.2274 validation: 0.984000 
+
+Iter-1050 worker 3, loss: 1.2529 validation: 0.981200 
+
+Iter-1050 worker 4, loss: 1.2654 validation: 0.978000 
+
+Iter-1050 average loss 1.2423548904245973 
+Iter-1100 worker 1, loss: 1.2277 validation: 0.981600 
+
+Iter-1100 worker 2, loss: 1.2299 validation: 0.983400 
+
+Iter-1100 worker 3, loss: 1.2859 validation: 0.980000 
+
+Iter-1100 worker 4, loss: 1.2520 validation: 0.977400 
+
+Iter-1100 average loss 1.248894692780535 
+Iter-1150 worker 1, loss: 1.3710 validation: 0.978800 
+
+Iter-1150 worker 2, loss: 1.2365 validation: 0.985400 
+
+Iter-1150 worker 3, loss: 1.2542 validation: 0.980000 
+
+Iter-1150 worker 4, loss: 1.2519 validation: 0.977000 
+
+Iter-1150 average loss 1.278397067135881 
+Iter-1200 worker 1, loss: 1.2263 validation: 0.981800 
+
+Iter-1200 worker 2, loss: 1.2322 validation: 0.984600 
+
+Iter-1200 worker 3, loss: 1.2539 validation: 0.980800 
+
+Iter-1200 worker 4, loss: 1.2521 validation: 0.980000 
+
+Iter-1200 average loss 1.2411347876191572 
+Iter-1250 worker 1, loss: 1.2223 validation: 0.981200 
+
+Iter-1250 worker 2, loss: 1.2300 validation: 0.985000 
+
+Iter-1250 worker 3, loss: 1.2517 validation: 0.982200 
+
+Iter-1250 worker 4, loss: 1.2535 validation: 0.979600 
+
+Iter-1250 average loss 1.239356362121227 
+Iter-1300 worker 1, loss: 1.2225 validation: 0.981600 
+
+Iter-1300 worker 2, loss: 1.2293 validation: 0.986400 
+
+Iter-1300 worker 3, loss: 1.2540 validation: 0.982400 
+
+Iter-1300 worker 4, loss: 1.2527 validation: 0.979200 
+
+Iter-1300 average loss 1.2396264392040506 
+Iter-1350 worker 1, loss: 1.2269 validation: 0.982600 
+
+Iter-1350 worker 2, loss: 1.2317 validation: 0.985200 
+
+Iter-1350 worker 3, loss: 1.2533 validation: 0.981200 
+
+Iter-1350 worker 4, loss: 1.2544 validation: 0.980000 
+
+Iter-1350 average loss 1.2415826571779605 
+Iter-1400 worker 1, loss: 1.2239 validation: 0.981800 
+
+Iter-1400 worker 2, loss: 1.2335 validation: 0.985000 
+
+Iter-1400 worker 3, loss: 1.2541 validation: 0.982200 
+
+Iter-1400 worker 4, loss: 1.2526 validation: 0.980200 
+
+Iter-1400 average loss 1.241053346491945 
+Iter-1450 worker 1, loss: 1.2226 validation: 0.983000 
+
+Iter-1450 worker 2, loss: 1.2307 validation: 0.985400 
+
+Iter-1450 worker 3, loss: 1.2526 validation: 0.983200 
+
+Iter-1450 worker 4, loss: 1.2532 validation: 0.980200 
+
+Iter-1450 average loss 1.239774757767639 
+Iter-1500 worker 1, loss: 1.2257 validation: 0.982600 
+
+Iter-1500 worker 2, loss: 1.2326 validation: 0.985400 
+
+Iter-1500 worker 3, loss: 1.2606 validation: 0.982600 
+
+Iter-1500 worker 4, loss: 1.2612 validation: 0.979400 
+
+Iter-1500 average loss 1.2450494841506337 
+Iter-50 loss: 1.5651 validation: 0.933400
+Iter-100 loss: 1.3378 validation: 0.960200
+Iter-150 loss: 1.2713 validation: 0.967800
+Iter-200 loss: 1.2876 validation: 0.972000
+Iter-250 loss: 1.2406 validation: 0.975600
+Iter-300 loss: 1.3188 validation: 0.975600
+Iter-350 loss: 1.2468 validation: 0.965200
+Iter-400 loss: 1.3124 validation: 0.978600
+Iter-450 loss: 1.2429 validation: 0.980200
+Iter-500 loss: 1.2566 validation: 0.980600
+Iter-550 loss: 1.2476 validation: 0.979600
+Iter-600 loss: 1.2599 validation: 0.982600
+Iter-650 loss: 1.2471 validation: 0.982400
+Iter-700 loss: 1.2488 validation: 0.984600
+Iter-750 loss: 1.2498 validation: 0.981600
+Iter-800 loss: 1.2557 validation: 0.983000
+Iter-850 loss: 1.2501 validation: 0.984000
+Iter-900 loss: 1.2517 validation: 0.983400
+Iter-950 loss: 1.2532 validation: 0.985600
+Iter-1000 loss: 1.2531 validation: 0.985800
+Iter-1050 loss: 1.2787 validation: 0.984200
+Iter-1100 loss: 1.2530 validation: 0.983600
+Iter-1150 loss: 1.2533 validation: 0.984800
+Iter-1200 loss: 1.2538 validation: 0.985200
+Iter-1250 loss: 1.2540 validation: 0.982200
+Iter-1300 loss: 1.2556 validation: 0.984400
+Iter-1350 loss: 1.2875 validation: 0.985400
+Iter-1400 loss: 1.2551 validation: 0.984600
+Iter-1450 loss: 1.2569 validation: 0.984600
+Iter-1500 loss: 1.2556 validation: 0.985000
+Iter-50 loss: 1.5427 validation: 0.942400
+Iter-100 loss: 1.3957 validation: 0.955200
+Iter-150 loss: 1.2419 validation: 0.958400
+Iter-200 loss: 1.4101 validation: 0.964600
+Iter-250 loss: 1.3544 validation: 0.967000
+Iter-300 loss: 1.3404 validation: 0.969800
+Iter-350 loss: 1.2645 validation: 0.979000
+Iter-400 loss: 1.2737 validation: 0.979000
+Iter-450 loss: 1.3337 validation: 0.978400
+Iter-500 loss: 1.2773 validation: 0.980800
+Iter-550 loss: 1.2479 validation: 0.979800
+Iter-600 loss: 1.2974 validation: 0.976800
+Iter-650 loss: 1.2590 validation: 0.983800
+Iter-700 loss: 1.6691 validation: 0.982400
+Iter-750 loss: 1.3172 validation: 0.980000
+Iter-800 loss: 1.3280 validation: 0.981200
+Iter-850 loss: 1.2818 validation: 0.983400
+Iter-900 loss: 1.3386 validation: 0.981800
+Iter-950 loss: 1.2581 validation: 0.984800
+Iter-1000 loss: 1.2745 validation: 0.985200
+Iter-1050 loss: 1.2757 validation: 0.984000
+Iter-1100 loss: 1.2897 validation: 0.985200
+Iter-1150 loss: 1.3463 validation: 0.986200
+Iter-1200 loss: 1.3357 validation: 0.987000
+Iter-1250 loss: 1.2918 validation: 0.983000
+Iter-1300 loss: 1.3148 validation: 0.987400
+Iter-1350 loss: 1.2781 validation: 0.985800
+Iter-1400 loss: 1.2884 validation: 0.988000
+Iter-1450 loss: 1.3321 validation: 0.987200
+Iter-1500 loss: 1.3698 validation: 0.985800
+
+Mean accuracy 1: 0.9806, std: 0.0000
+Mean accuracy 2: 0.9827, std: 0.0000
+Mean accuracy 3: 0.9821, std: 0.0000
+Mean accuracy 4: 0.9801, std: 0.0000
+Mean accuracy :0.9856,std :0.0000
+Mean accuracy :0.9862,std :0.0000
+2 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.4468 validation: 0.893800 
+
+Iter-50 worker 2, loss: 1.5749 validation: 0.941400 
+
+Iter-50 worker 3, loss: 1.3731 validation: 0.951000 
+
+Iter-50 worker 4, loss: 1.5425 validation: 0.927600 
+
+Iter-50 average loss 1.484317836691185 
+Iter-100 worker 1, loss: 1.3396 validation: 0.927000 
+
+Iter-100 worker 2, loss: 1.3874 validation: 0.952000 
+
+Iter-100 worker 3, loss: 1.4419 validation: 0.949600 
+
+Iter-100 worker 4, loss: 1.4096 validation: 0.955400 
+
+Iter-100 average loss 1.3946522333159788 
+Iter-150 worker 1, loss: 1.3475 validation: 0.942000 
+
+Iter-150 worker 2, loss: 1.2734 validation: 0.958000 
+
+Iter-150 worker 3, loss: 1.3698 validation: 0.963400 
+
+Iter-150 worker 4, loss: 1.3972 validation: 0.964200 
+
+Iter-150 average loss 1.3469872253694095 
+Iter-200 worker 1, loss: 1.3911 validation: 0.961200 
+
+Iter-200 worker 2, loss: 1.2752 validation: 0.959800 
+
+Iter-200 worker 3, loss: 1.4031 validation: 0.957000 
+
+Iter-200 worker 4, loss: 1.3069 validation: 0.970400 
+
+Iter-200 average loss 1.3440522208424286 
+Iter-250 worker 1, loss: 1.2396 validation: 0.966800 
+
+Iter-250 worker 2, loss: 1.2643 validation: 0.964200 
+
+Iter-250 worker 3, loss: 1.2871 validation: 0.973800 
+
+Iter-250 worker 4, loss: 1.2283 validation: 0.972400 
+
+Iter-250 average loss 1.2548266834505788 
+Iter-300 worker 1, loss: 1.2877 validation: 0.968200 
+
+Iter-300 worker 2, loss: 1.3138 validation: 0.969200 
+
+Iter-300 worker 3, loss: 1.2553 validation: 0.972000 
+
+Iter-300 worker 4, loss: 1.2569 validation: 0.966400 
+
+Iter-300 average loss 1.2784190664202184 
+Iter-350 worker 1, loss: 1.3155 validation: 0.971600 
+
+Iter-350 worker 2, loss: 1.2440 validation: 0.971800 
+
+Iter-350 worker 3, loss: 1.2832 validation: 0.971600 
+
+Iter-350 worker 4, loss: 1.2242 validation: 0.975200 
+
+Iter-350 average loss 1.2667095835776203 
+Iter-400 worker 1, loss: 1.2351 validation: 0.968600 
+
+Iter-400 worker 2, loss: 1.2764 validation: 0.973400 
+
+Iter-400 worker 3, loss: 1.2867 validation: 0.974800 
+
+Iter-400 worker 4, loss: 1.2611 validation: 0.973600 
+
+Iter-400 average loss 1.2648365707806575 
+Iter-450 worker 1, loss: 1.2264 validation: 0.974800 
+
+Iter-450 worker 2, loss: 1.2207 validation: 0.973400 
+
+Iter-450 worker 3, loss: 1.2634 validation: 0.971000 
+
+Iter-450 worker 4, loss: 1.2258 validation: 0.976800 
+
+Iter-450 average loss 1.2340700064860632 
+Iter-500 worker 1, loss: 1.2197 validation: 0.978200 
+
+Iter-500 worker 2, loss: 1.2200 validation: 0.975800 
+
+Iter-500 worker 3, loss: 1.2360 validation: 0.977200 
+
+Iter-500 worker 4, loss: 1.2223 validation: 0.974600 
+
+Iter-500 average loss 1.224516126535581 
+Iter-550 worker 1, loss: 1.2582 validation: 0.976400 
+
+Iter-550 worker 2, loss: 1.3979 validation: 0.975000 
+
+Iter-550 worker 3, loss: 1.2337 validation: 0.969600 
+
+Iter-550 worker 4, loss: 1.2627 validation: 0.976200 
+
+Iter-550 average loss 1.288135000546494 
+Iter-600 worker 1, loss: 1.3245 validation: 0.980200 
+
+Iter-600 worker 2, loss: 1.2593 validation: 0.979600 
+
+Iter-600 worker 3, loss: 1.2458 validation: 0.977800 
+
+Iter-600 worker 4, loss: 1.2946 validation: 0.975400 
+
+Iter-600 average loss 1.2810746167184437 
+Iter-650 worker 1, loss: 1.3229 validation: 0.976600 
+
+Iter-650 worker 2, loss: 1.3230 validation: 0.974600 
+
+Iter-650 worker 3, loss: 1.2441 validation: 0.979400 
+
+Iter-650 worker 4, loss: 1.2200 validation: 0.967800 
+
+Iter-650 average loss 1.2774840019697349 
+Iter-700 worker 1, loss: 1.2325 validation: 0.974600 
+
+Iter-700 worker 2, loss: 1.2264 validation: 0.976600 
+
+Iter-700 worker 3, loss: 1.2317 validation: 0.976200 
+
+Iter-700 worker 4, loss: 1.2335 validation: 0.978200 
+
+Iter-700 average loss 1.2309958425141094 
+Iter-750 worker 1, loss: 1.2307 validation: 0.979200 
+
+Iter-750 worker 2, loss: 1.2299 validation: 0.979400 
+
+Iter-750 worker 3, loss: 1.2347 validation: 0.977400 
+
+Iter-750 worker 4, loss: 1.2291 validation: 0.978800 
+
+Iter-750 average loss 1.2311026759176458 
+Iter-800 worker 1, loss: 1.2263 validation: 0.980400 
+
+Iter-800 worker 2, loss: 1.2238 validation: 0.981000 
+
+Iter-800 worker 3, loss: 1.2496 validation: 0.979200 
+
+Iter-800 worker 4, loss: 1.2272 validation: 0.978800 
+
+Iter-800 average loss 1.2317359598055673 
+Iter-850 worker 1, loss: 1.2361 validation: 0.982200 
+
+Iter-850 worker 2, loss: 1.2353 validation: 0.983600 
+
+Iter-850 worker 3, loss: 1.2321 validation: 0.979800 
+
+Iter-850 worker 4, loss: 1.2279 validation: 0.978800 
+
+Iter-850 average loss 1.2328208294983778 
+Iter-900 worker 1, loss: 1.2407 validation: 0.982800 
+
+Iter-900 worker 2, loss: 1.2313 validation: 0.978400 
+
+Iter-900 worker 3, loss: 1.2288 validation: 0.981000 
+
+Iter-900 worker 4, loss: 1.2252 validation: 0.977000 
+
+Iter-900 average loss 1.231516600060874 
+Iter-950 worker 1, loss: 1.2324 validation: 0.981600 
+
+Iter-950 worker 2, loss: 1.2320 validation: 0.981600 
+
+Iter-950 worker 3, loss: 1.2300 validation: 0.981800 
+
+Iter-950 worker 4, loss: 1.2317 validation: 0.978400 
+
+Iter-950 average loss 1.231518074271012 
+Iter-1000 worker 1, loss: 1.2304 validation: 0.981200 
+
+Iter-1000 worker 2, loss: 1.2535 validation: 0.984200 
+
+Iter-1000 worker 3, loss: 1.2376 validation: 0.976800 
+
+Iter-1000 worker 4, loss: 1.2263 validation: 0.979600 
+
+Iter-1000 average loss 1.2369296055486643 
+Iter-1050 worker 1, loss: 1.2325 validation: 0.980600 
+
+Iter-1050 worker 2, loss: 1.2281 validation: 0.983600 
+
+Iter-1050 worker 3, loss: 1.2323 validation: 0.980400 
+
+Iter-1050 worker 4, loss: 1.2282 validation: 0.979400 
+
+Iter-1050 average loss 1.230284319757681 
+Iter-1100 worker 1, loss: 1.2657 validation: 0.982000 
+
+Iter-1100 worker 2, loss: 1.2321 validation: 0.981400 
+
+Iter-1100 worker 3, loss: 1.2320 validation: 0.980800 
+
+Iter-1100 worker 4, loss: 1.2252 validation: 0.979000 
+
+Iter-1100 average loss 1.2387506795786782 
+Iter-1150 worker 1, loss: 1.2339 validation: 0.975600 
+
+Iter-1150 worker 2, loss: 1.2302 validation: 0.981800 
+
+Iter-1150 worker 3, loss: 1.2337 validation: 0.981600 
+
+Iter-1150 worker 4, loss: 1.2748 validation: 0.978200 
+
+Iter-1150 average loss 1.2431329947475946 
+Iter-1200 worker 1, loss: 1.2315 validation: 0.980400 
+
+Iter-1200 worker 2, loss: 1.2296 validation: 0.981200 
+
+Iter-1200 worker 3, loss: 1.2330 validation: 0.981600 
+
+Iter-1200 worker 4, loss: 1.2273 validation: 0.978600 
+
+Iter-1200 average loss 1.2303469961831135 
+Iter-1250 worker 1, loss: 1.2335 validation: 0.983200 
+
+Iter-1250 worker 2, loss: 1.2635 validation: 0.981000 
+
+Iter-1250 worker 3, loss: 1.2332 validation: 0.981000 
+
+Iter-1250 worker 4, loss: 1.2287 validation: 0.981200 
+
+Iter-1250 average loss 1.2397218236234604 
+Iter-1300 worker 1, loss: 1.2475 validation: 0.983000 
+
+Iter-1300 worker 2, loss: 1.2296 validation: 0.980600 
+
+Iter-1300 worker 3, loss: 1.2332 validation: 0.981600 
+
+Iter-1300 worker 4, loss: 1.2262 validation: 0.980600 
+
+Iter-1300 average loss 1.2341231904960797 
+Iter-1350 worker 1, loss: 1.2522 validation: 0.980600 
+
+Iter-1350 worker 2, loss: 1.2294 validation: 0.982000 
+
+Iter-1350 worker 3, loss: 1.2344 validation: 0.981200 
+
+Iter-1350 worker 4, loss: 1.2326 validation: 0.979400 
+
+Iter-1350 average loss 1.237157394421315 
+Iter-1400 worker 1, loss: 1.2425 validation: 0.980400 
+
+Iter-1400 worker 2, loss: 1.2405 validation: 0.980400 
+
+Iter-1400 worker 3, loss: 1.2965 validation: 0.982000 
+
+Iter-1400 worker 4, loss: 1.2321 validation: 0.980000 
+
+Iter-1400 average loss 1.2529099953631677 
+Iter-1450 worker 1, loss: 1.2397 validation: 0.978800 
+
+Iter-1450 worker 2, loss: 1.2352 validation: 0.982000 
+
+Iter-1450 worker 3, loss: 1.2332 validation: 0.983000 
+
+Iter-1450 worker 4, loss: 1.2280 validation: 0.978400 
+
+Iter-1450 average loss 1.234005898253702 
+Iter-1500 worker 1, loss: 1.2465 validation: 0.981600 
+
+Iter-1500 worker 2, loss: 1.2330 validation: 0.983200 
+
+Iter-1500 worker 3, loss: 1.2334 validation: 0.984800 
+
+Iter-1500 worker 4, loss: 1.2300 validation: 0.978800 
+
+Iter-1500 average loss 1.2357285650733414 
+Iter-50 loss: 1.4359 validation: 0.931000
+Iter-100 loss: 1.2946 validation: 0.963800
+Iter-150 loss: 1.2717 validation: 0.955600
+Iter-200 loss: 1.2421 validation: 0.965600
+Iter-250 loss: 1.2637 validation: 0.972000
+Iter-300 loss: 1.3199 validation: 0.974800
+Iter-350 loss: 1.2423 validation: 0.975400
+Iter-400 loss: 1.2762 validation: 0.981400
+Iter-450 loss: 1.2366 validation: 0.982600
+Iter-500 loss: 1.2406 validation: 0.971200
+Iter-550 loss: 1.2309 validation: 0.983400
+Iter-600 loss: 1.2442 validation: 0.982000
+Iter-650 loss: 1.2477 validation: 0.979800
+Iter-700 loss: 1.2343 validation: 0.984200
+Iter-750 loss: 1.2356 validation: 0.983200
+Iter-800 loss: 1.2457 validation: 0.982800
+Iter-850 loss: 1.2683 validation: 0.982800
+Iter-900 loss: 1.2493 validation: 0.984600
+Iter-950 loss: 1.2378 validation: 0.983600
+Iter-1000 loss: 1.2407 validation: 0.984600
+Iter-1050 loss: 1.2393 validation: 0.984400
+Iter-1100 loss: 1.2399 validation: 0.986000
+Iter-1150 loss: 1.2401 validation: 0.986800
+Iter-1200 loss: 1.2408 validation: 0.986800
+Iter-1250 loss: 1.2429 validation: 0.986800
+Iter-1300 loss: 1.2415 validation: 0.987000
+Iter-1350 loss: 1.2413 validation: 0.987000
+Iter-1400 loss: 1.2403 validation: 0.988200
+Iter-1450 loss: 1.2447 validation: 0.986800
+Iter-1500 loss: 1.2405 validation: 0.987600
+Iter-50 loss: 1.5150 validation: 0.925800
+Iter-100 loss: 1.4744 validation: 0.955600
+Iter-150 loss: 1.3683 validation: 0.959000
+Iter-200 loss: 1.3956 validation: 0.967200
+Iter-250 loss: 1.3271 validation: 0.971000
+Iter-300 loss: 1.4016 validation: 0.976600
+Iter-350 loss: 1.3889 validation: 0.979600
+Iter-400 loss: 1.3496 validation: 0.977400
+Iter-450 loss: 1.3039 validation: 0.970000
+Iter-500 loss: 1.2492 validation: 0.978800
+Iter-550 loss: 1.3316 validation: 0.979200
+Iter-600 loss: 1.2561 validation: 0.974000
+Iter-650 loss: 1.2651 validation: 0.980800
+Iter-700 loss: 1.2860 validation: 0.983400
+Iter-750 loss: 1.2534 validation: 0.983800
+Iter-800 loss: 1.2665 validation: 0.979600
+Iter-850 loss: 1.2849 validation: 0.983400
+Iter-900 loss: 1.2547 validation: 0.985000
+Iter-950 loss: 1.2653 validation: 0.985400
+Iter-1000 loss: 1.4156 validation: 0.983800
+Iter-1050 loss: 1.2639 validation: 0.984200
+Iter-1100 loss: 1.2836 validation: 0.977000
+Iter-1150 loss: 1.2786 validation: 0.986400
+Iter-1200 loss: 1.2757 validation: 0.983200
+Iter-1250 loss: 1.3037 validation: 0.984600
+Iter-1300 loss: 1.2685 validation: 0.987400
+Iter-1350 loss: 1.2778 validation: 0.987000
+Iter-1400 loss: 1.2790 validation: 0.985200
+Iter-1450 loss: 1.3199 validation: 0.983800
+Iter-1500 loss: 1.2742 validation: 0.986400
+
+Mean accuracy 1: 0.9778, std: 0.0000
+Mean accuracy 2: 0.9826, std: 0.0000
+Mean accuracy 3: 0.9831, std: 0.0000
+Mean accuracy 4: 0.9803, std: 0.0000
+Mean accuracy :0.9841,std :0.0000
+Mean accuracy :0.9881,std :0.0000
+3 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3425 validation: 0.931800 
+
+Iter-50 worker 2, loss: 1.4600 validation: 0.934000 
+
+Iter-50 worker 3, loss: 1.3337 validation: 0.930800 
+
+Iter-50 worker 4, loss: 1.5877 validation: 0.920800 
+
+Iter-50 average loss 1.430992485995984 
+Iter-100 worker 1, loss: 1.3047 validation: 0.949600 
+
+Iter-100 worker 2, loss: 1.2648 validation: 0.959000 
+
+Iter-100 worker 3, loss: 1.4148 validation: 0.957800 
+
+Iter-100 worker 4, loss: 1.2316 validation: 0.951200 
+
+Iter-100 average loss 1.3039791208318299 
+Iter-150 worker 1, loss: 1.3044 validation: 0.962800 
+
+Iter-150 worker 2, loss: 1.3594 validation: 0.965000 
+
+Iter-150 worker 3, loss: 1.4040 validation: 0.942200 
+
+Iter-150 worker 4, loss: 1.2373 validation: 0.955400 
+
+Iter-150 average loss 1.3262920958199031 
+Iter-200 worker 1, loss: 1.2802 validation: 0.955600 
+
+Iter-200 worker 2, loss: 1.2210 validation: 0.969400 
+
+Iter-200 worker 3, loss: 1.3188 validation: 0.965400 
+
+Iter-200 worker 4, loss: 1.2546 validation: 0.968800 
+
+Iter-200 average loss 1.2686419959104014 
+Iter-250 worker 1, loss: 1.2557 validation: 0.966800 
+
+Iter-250 worker 2, loss: 1.2764 validation: 0.972000 
+
+Iter-250 worker 3, loss: 1.2375 validation: 0.966600 
+
+Iter-250 worker 4, loss: 1.2402 validation: 0.968400 
+
+Iter-250 average loss 1.2524529412549321 
+Iter-300 worker 1, loss: 1.3071 validation: 0.971600 
+
+Iter-300 worker 2, loss: 1.2297 validation: 0.965000 
+
+Iter-300 worker 3, loss: 1.2720 validation: 0.969400 
+
+Iter-300 worker 4, loss: 1.2692 validation: 0.973400 
+
+Iter-300 average loss 1.269501406155406 
+Iter-350 worker 1, loss: 1.2800 validation: 0.966000 
+
+Iter-350 worker 2, loss: 1.3101 validation: 0.971600 
+
+Iter-350 worker 3, loss: 1.2928 validation: 0.975200 
+
+Iter-350 worker 4, loss: 1.2868 validation: 0.973400 
+
+Iter-350 average loss 1.2924029334683906 
+Iter-400 worker 1, loss: 1.2606 validation: 0.973200 
+
+Iter-400 worker 2, loss: 1.2230 validation: 0.975600 
+
+Iter-400 worker 3, loss: 1.2464 validation: 0.977800 
+
+Iter-400 worker 4, loss: 1.2197 validation: 0.972000 
+
+Iter-400 average loss 1.2374277906774351 
+Iter-450 worker 1, loss: 1.3525 validation: 0.979000 
+
+Iter-450 worker 2, loss: 1.2808 validation: 0.978400 
+
+Iter-450 worker 3, loss: 1.3392 validation: 0.962000 
+
+Iter-450 worker 4, loss: 1.2430 validation: 0.970800 
+
+Iter-450 average loss 1.3038802875661664 
+Iter-500 worker 1, loss: 1.2727 validation: 0.978800 
+
+Iter-500 worker 2, loss: 1.2250 validation: 0.978800 
+
+Iter-500 worker 3, loss: 1.2521 validation: 0.977400 
+
+Iter-500 worker 4, loss: 1.2704 validation: 0.975000 
+
+Iter-500 average loss 1.255035361207229 
+Iter-550 worker 1, loss: 1.2540 validation: 0.979000 
+
+Iter-550 worker 2, loss: 1.2545 validation: 0.974400 
+
+Iter-550 worker 3, loss: 1.2297 validation: 0.977800 
+
+Iter-550 worker 4, loss: 1.2218 validation: 0.975600 
+
+Iter-550 average loss 1.239971698108099 
+Iter-600 worker 1, loss: 1.2619 validation: 0.977600 
+
+Iter-600 worker 2, loss: 1.3597 validation: 0.979600 
+
+Iter-600 worker 3, loss: 1.2408 validation: 0.975600 
+
+Iter-600 worker 4, loss: 1.2335 validation: 0.974000 
+
+Iter-600 average loss 1.2739880319983832 
+Iter-650 worker 1, loss: 1.2923 validation: 0.976400 
+
+Iter-650 worker 2, loss: 1.2394 validation: 0.980600 
+
+Iter-650 worker 3, loss: 1.2353 validation: 0.978600 
+
+Iter-650 worker 4, loss: 1.3014 validation: 0.974200 
+
+Iter-650 average loss 1.2671034033986577 
+Iter-700 worker 1, loss: 1.2465 validation: 0.978600 
+
+Iter-700 worker 2, loss: 1.2458 validation: 0.980400 
+
+Iter-700 worker 3, loss: 1.2386 validation: 0.978800 
+
+Iter-700 worker 4, loss: 1.2438 validation: 0.980600 
+
+Iter-700 average loss 1.2436723505325848 
+Iter-750 worker 1, loss: 1.2820 validation: 0.975800 
+
+Iter-750 worker 2, loss: 1.2776 validation: 0.980400 
+
+Iter-750 worker 3, loss: 1.3847 validation: 0.979600 
+
+Iter-750 worker 4, loss: 1.2209 validation: 0.973000 
+
+Iter-750 average loss 1.2912904877656532 
+Iter-800 worker 1, loss: 1.2448 validation: 0.978800 
+
+Iter-800 worker 2, loss: 1.2261 validation: 0.982000 
+
+Iter-800 worker 3, loss: 1.2385 validation: 0.978200 
+
+Iter-800 worker 4, loss: 1.2905 validation: 0.977400 
+
+Iter-800 average loss 1.2499743919030664 
+Iter-850 worker 1, loss: 1.2542 validation: 0.981800 
+
+Iter-850 worker 2, loss: 1.3291 validation: 0.980600 
+
+Iter-850 worker 3, loss: 1.2426 validation: 0.979800 
+
+Iter-850 worker 4, loss: 1.2349 validation: 0.978800 
+
+Iter-850 average loss 1.265217218463622 
+Iter-900 worker 1, loss: 1.2459 validation: 0.982000 
+
+Iter-900 worker 2, loss: 1.2271 validation: 0.982600 
+
+Iter-900 worker 3, loss: 1.2380 validation: 0.979600 
+
+Iter-900 worker 4, loss: 1.2244 validation: 0.979200 
+
+Iter-900 average loss 1.2338645449826096 
+Iter-950 worker 1, loss: 1.2467 validation: 0.982400 
+
+Iter-950 worker 2, loss: 1.2234 validation: 0.983200 
+
+Iter-950 worker 3, loss: 1.2315 validation: 0.979400 
+
+Iter-950 worker 4, loss: 1.3466 validation: 0.977400 
+
+Iter-950 average loss 1.2620274210347713 
+Iter-1000 worker 1, loss: 1.2951 validation: 0.982000 
+
+Iter-1000 worker 2, loss: 1.2250 validation: 0.981800 
+
+Iter-1000 worker 3, loss: 1.2317 validation: 0.980600 
+
+Iter-1000 worker 4, loss: 1.2284 validation: 0.977000 
+
+Iter-1000 average loss 1.2450462717314852 
+Iter-1050 worker 1, loss: 1.2490 validation: 0.984000 
+
+Iter-1050 worker 2, loss: 1.2236 validation: 0.983600 
+
+Iter-1050 worker 3, loss: 1.3031 validation: 0.980600 
+
+Iter-1050 worker 4, loss: 1.2275 validation: 0.979200 
+
+Iter-1050 average loss 1.2507915043221143 
+Iter-1100 worker 1, loss: 1.2507 validation: 0.984200 
+
+Iter-1100 worker 2, loss: 1.2274 validation: 0.983400 
+
+Iter-1100 worker 3, loss: 1.2381 validation: 0.978800 
+
+Iter-1100 worker 4, loss: 1.2411 validation: 0.979400 
+
+Iter-1100 average loss 1.2393433279115047 
+Iter-1150 worker 1, loss: 1.2502 validation: 0.983600 
+
+Iter-1150 worker 2, loss: 1.2273 validation: 0.983200 
+
+Iter-1150 worker 3, loss: 1.2424 validation: 0.979600 
+
+Iter-1150 worker 4, loss: 1.2246 validation: 0.981000 
+
+Iter-1150 average loss 1.2361098281186986 
+Iter-1200 worker 1, loss: 1.2507 validation: 0.983800 
+
+Iter-1200 worker 2, loss: 1.2285 validation: 0.984400 
+
+Iter-1200 worker 3, loss: 1.2534 validation: 0.979200 
+
+Iter-1200 worker 4, loss: 1.2238 validation: 0.981000 
+
+Iter-1200 average loss 1.2390798202659175 
+Iter-1250 worker 1, loss: 1.2510 validation: 0.984400 
+
+Iter-1250 worker 2, loss: 1.2261 validation: 0.984600 
+
+Iter-1250 worker 3, loss: 1.2970 validation: 0.982400 
+
+Iter-1250 worker 4, loss: 1.2258 validation: 0.981000 
+
+Iter-1250 average loss 1.249972970398625 
+Iter-1300 worker 1, loss: 1.2519 validation: 0.980000 
+
+Iter-1300 worker 2, loss: 1.2894 validation: 0.984800 
+
+Iter-1300 worker 3, loss: 1.2376 validation: 0.980800 
+
+Iter-1300 worker 4, loss: 1.2252 validation: 0.981800 
+
+Iter-1300 average loss 1.2510307964986818 
+Iter-1350 worker 1, loss: 1.2511 validation: 0.983400 
+
+Iter-1350 worker 2, loss: 1.2281 validation: 0.981200 
+
+Iter-1350 worker 3, loss: 1.2401 validation: 0.981600 
+
+Iter-1350 worker 4, loss: 1.2261 validation: 0.982600 
+
+Iter-1350 average loss 1.2363405497056035 
+Iter-1400 worker 1, loss: 1.2513 validation: 0.984200 
+
+Iter-1400 worker 2, loss: 1.2444 validation: 0.985200 
+
+Iter-1400 worker 3, loss: 1.2402 validation: 0.982200 
+
+Iter-1400 worker 4, loss: 1.2269 validation: 0.980400 
+
+Iter-1400 average loss 1.2407173615957765 
+Iter-1450 worker 1, loss: 1.2515 validation: 0.984400 
+
+Iter-1450 worker 2, loss: 1.2269 validation: 0.984800 
+
+Iter-1450 worker 3, loss: 1.2366 validation: 0.982400 
+
+Iter-1450 worker 4, loss: 1.2273 validation: 0.982200 
+
+Iter-1450 average loss 1.2355642402745188 
+Iter-1500 worker 1, loss: 1.2527 validation: 0.984000 
+
+Iter-1500 worker 2, loss: 1.2332 validation: 0.984600 
+
+Iter-1500 worker 3, loss: 1.2398 validation: 0.983000 
+
+Iter-1500 worker 4, loss: 1.2263 validation: 0.981400 
+
+Iter-1500 average loss 1.2379822209002618 
+Iter-50 loss: 1.4834 validation: 0.932200
+Iter-100 loss: 1.3046 validation: 0.965000
+Iter-150 loss: 1.3530 validation: 0.968400
+Iter-200 loss: 1.2240 validation: 0.971800
+Iter-250 loss: 1.4900 validation: 0.957000
+Iter-300 loss: 1.3179 validation: 0.974000
+Iter-350 loss: 1.2404 validation: 0.971600
+Iter-400 loss: 1.2675 validation: 0.978200
+Iter-450 loss: 1.2297 validation: 0.979400
+Iter-500 loss: 1.2338 validation: 0.976600
+Iter-550 loss: 1.3343 validation: 0.978600
+Iter-600 loss: 1.2326 validation: 0.980200
+Iter-650 loss: 1.2464 validation: 0.982000
+Iter-700 loss: 1.2428 validation: 0.980000
+Iter-750 loss: 1.3001 validation: 0.983200
+Iter-800 loss: 1.2357 validation: 0.983200
+Iter-850 loss: 1.2404 validation: 0.984400
+Iter-900 loss: 1.2374 validation: 0.984600
+Iter-950 loss: 1.2374 validation: 0.984000
+Iter-1000 loss: 1.2363 validation: 0.985800
+Iter-1050 loss: 1.2366 validation: 0.984200
+Iter-1100 loss: 1.2377 validation: 0.984400
+Iter-1150 loss: 1.2378 validation: 0.985200
+Iter-1200 loss: 1.2368 validation: 0.985200
+Iter-1250 loss: 1.2384 validation: 0.984600
+Iter-1300 loss: 1.2374 validation: 0.984200
+Iter-1350 loss: 1.2376 validation: 0.984800
+Iter-1400 loss: 1.2502 validation: 0.985600
+Iter-1450 loss: 1.2384 validation: 0.984600
+Iter-1500 loss: 1.2385 validation: 0.984800
+Iter-50 loss: 1.3996 validation: 0.917600
+Iter-100 loss: 1.3502 validation: 0.964800
+Iter-150 loss: 1.3786 validation: 0.960000
+Iter-200 loss: 1.2634 validation: 0.967000
+Iter-250 loss: 1.3402 validation: 0.974600
+Iter-300 loss: 1.2608 validation: 0.973400
+Iter-350 loss: 1.2477 validation: 0.975600
+Iter-400 loss: 1.2387 validation: 0.977200
+Iter-450 loss: 1.2748 validation: 0.974800
+Iter-500 loss: 1.3239 validation: 0.980600
+Iter-550 loss: 1.2366 validation: 0.982600
+Iter-600 loss: 1.2459 validation: 0.983200
+Iter-650 loss: 1.2505 validation: 0.980800
+Iter-700 loss: 1.3411 validation: 0.985600
+Iter-750 loss: 1.2687 validation: 0.981600
+Iter-800 loss: 1.2489 validation: 0.977200
+Iter-850 loss: 1.2717 validation: 0.975200
+Iter-900 loss: 1.3213 validation: 0.984400
+Iter-950 loss: 1.2799 validation: 0.984400
+Iter-1000 loss: 1.2880 validation: 0.985800
+Iter-1050 loss: 1.2704 validation: 0.985800
+Iter-1100 loss: 1.2595 validation: 0.986000
+Iter-1150 loss: 1.2639 validation: 0.986400
+Iter-1200 loss: 1.2689 validation: 0.987600
+Iter-1250 loss: 1.2769 validation: 0.986600
+Iter-1300 loss: 1.3126 validation: 0.987600
+Iter-1350 loss: 1.2678 validation: 0.986800
+Iter-1400 loss: 1.2667 validation: 0.986800
+Iter-1450 loss: 1.2662 validation: 0.987200
+Iter-1500 loss: 1.3582 validation: 0.987000
+
+Mean accuracy 1: 0.9834, std: 0.0000
+Mean accuracy 2: 0.9827, std: 0.0000
+Mean accuracy 3: 0.9807, std: 0.0000
+Mean accuracy 4: 0.9809, std: 0.0000
+Mean accuracy :0.9852,std :0.0000
+Mean accuracy :0.9876,std :0.0000
+4 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3238 validation: 0.944000 
+
+Iter-50 worker 2, loss: 1.4135 validation: 0.936800 
+
+Iter-50 worker 3, loss: 1.3081 validation: 0.938600 
+
+Iter-50 worker 4, loss: 1.2798 validation: 0.933400 
+
+Iter-50 average loss 1.3313179073236685 
+Iter-100 worker 1, loss: 1.4359 validation: 0.960400 
+
+Iter-100 worker 2, loss: 1.4725 validation: 0.944400 
+
+Iter-100 worker 3, loss: 1.3060 validation: 0.951200 
+
+Iter-100 worker 4, loss: 1.3233 validation: 0.954600 
+
+Iter-100 average loss 1.384434297521518 
+Iter-150 worker 1, loss: 1.2322 validation: 0.944600 
+
+Iter-150 worker 2, loss: 1.2528 validation: 0.966600 
+
+Iter-150 worker 3, loss: 1.3717 validation: 0.965200 
+
+Iter-150 worker 4, loss: 1.2401 validation: 0.960200 
+
+Iter-150 average loss 1.2741987059332716 
+Iter-200 worker 1, loss: 1.2606 validation: 0.971600 
+
+Iter-200 worker 2, loss: 1.4949 validation: 0.954200 
+
+Iter-200 worker 3, loss: 1.3412 validation: 0.962200 
+
+Iter-200 worker 4, loss: 1.3689 validation: 0.963200 
+
+Iter-200 average loss 1.366397675174685 
+Iter-250 worker 1, loss: 1.2538 validation: 0.973600 
+
+Iter-250 worker 2, loss: 1.2489 validation: 0.973000 
+
+Iter-250 worker 3, loss: 1.4015 validation: 0.960600 
+
+Iter-250 worker 4, loss: 1.2473 validation: 0.970200 
+
+Iter-250 average loss 1.2878796643059738 
+Iter-300 worker 1, loss: 1.2918 validation: 0.964600 
+
+Iter-300 worker 2, loss: 1.2760 validation: 0.974000 
+
+Iter-300 worker 3, loss: 1.2229 validation: 0.957200 
+
+Iter-300 worker 4, loss: 1.2544 validation: 0.973200 
+
+Iter-300 average loss 1.2612949579225021 
+Iter-350 worker 1, loss: 1.3389 validation: 0.971200 
+
+Iter-350 worker 2, loss: 1.2930 validation: 0.969600 
+
+Iter-350 worker 3, loss: 1.2389 validation: 0.970200 
+
+Iter-350 worker 4, loss: 1.2281 validation: 0.974800 
+
+Iter-350 average loss 1.2747258174555096 
+Iter-400 worker 1, loss: 1.2408 validation: 0.963200 
+
+Iter-400 worker 2, loss: 1.2557 validation: 0.968600 
+
+Iter-400 worker 3, loss: 1.3380 validation: 0.973400 
+
+Iter-400 worker 4, loss: 1.4145 validation: 0.971800 
+
+Iter-400 average loss 1.312267791168208 
+Iter-450 worker 1, loss: 1.2366 validation: 0.973600 
+
+Iter-450 worker 2, loss: 1.2581 validation: 0.974800 
+
+Iter-450 worker 3, loss: 1.2523 validation: 0.973000 
+
+Iter-450 worker 4, loss: 1.2301 validation: 0.974200 
+
+Iter-450 average loss 1.244269886659471 
+Iter-500 worker 1, loss: 1.4197 validation: 0.983000 
+
+Iter-500 worker 2, loss: 1.2900 validation: 0.962200 
+
+Iter-500 worker 3, loss: 1.2507 validation: 0.971600 
+
+Iter-500 worker 4, loss: 1.2205 validation: 0.976400 
+
+Iter-500 average loss 1.2952279782129328 
+Iter-550 worker 1, loss: 1.2405 validation: 0.976400 
+
+Iter-550 worker 2, loss: 1.2424 validation: 0.976000 
+
+Iter-550 worker 3, loss: 1.2279 validation: 0.977800 
+
+Iter-550 worker 4, loss: 1.2223 validation: 0.975600 
+
+Iter-550 average loss 1.2332518040974803 
+Iter-600 worker 1, loss: 1.2273 validation: 0.980400 
+
+Iter-600 worker 2, loss: 1.2325 validation: 0.978000 
+
+Iter-600 worker 3, loss: 1.2294 validation: 0.971400 
+
+Iter-600 worker 4, loss: 1.2491 validation: 0.977800 
+
+Iter-600 average loss 1.2345700280600171 
+Iter-650 worker 1, loss: 1.2378 validation: 0.976800 
+
+Iter-650 worker 2, loss: 1.2961 validation: 0.977200 
+
+Iter-650 worker 3, loss: 1.2355 validation: 0.977600 
+
+Iter-650 worker 4, loss: 1.2242 validation: 0.972000 
+
+Iter-650 average loss 1.2484084730886533 
+Iter-700 worker 1, loss: 1.2298 validation: 0.981400 
+
+Iter-700 worker 2, loss: 1.3500 validation: 0.974600 
+
+Iter-700 worker 3, loss: 1.3247 validation: 0.979600 
+
+Iter-700 worker 4, loss: 1.2211 validation: 0.977400 
+
+Iter-700 average loss 1.2813929455567918 
+Iter-750 worker 1, loss: 1.2689 validation: 0.961800 
+
+Iter-750 worker 2, loss: 1.2518 validation: 0.979400 
+
+Iter-750 worker 3, loss: 1.2473 validation: 0.979400 
+
+Iter-750 worker 4, loss: 1.2370 validation: 0.979600 
+
+Iter-750 average loss 1.2512594653491296 
+Iter-800 worker 1, loss: 1.3915 validation: 0.981200 
+
+Iter-800 worker 2, loss: 1.2415 validation: 0.976600 
+
+Iter-800 worker 3, loss: 1.2420 validation: 0.978400 
+
+Iter-800 worker 4, loss: 1.2348 validation: 0.981000 
+
+Iter-800 average loss 1.2774580844125392 
+Iter-850 worker 1, loss: 1.2422 validation: 0.980600 
+
+Iter-850 worker 2, loss: 1.2649 validation: 0.979000 
+
+Iter-850 worker 3, loss: 1.2401 validation: 0.979000 
+
+Iter-850 worker 4, loss: 1.2271 validation: 0.976400 
+
+Iter-850 average loss 1.2435606596387916 
+Iter-900 worker 1, loss: 1.2368 validation: 0.981400 
+
+Iter-900 worker 2, loss: 1.2499 validation: 0.979000 
+
+Iter-900 worker 3, loss: 1.2444 validation: 0.981200 
+
+Iter-900 worker 4, loss: 1.2237 validation: 0.980600 
+
+Iter-900 average loss 1.2386813289582503 
+Iter-950 worker 1, loss: 1.2325 validation: 0.983600 
+
+Iter-950 worker 2, loss: 1.2443 validation: 0.980800 
+
+Iter-950 worker 3, loss: 1.2362 validation: 0.979200 
+
+Iter-950 worker 4, loss: 1.3168 validation: 0.979200 
+
+Iter-950 average loss 1.2574558530587614 
+Iter-1000 worker 1, loss: 1.2356 validation: 0.982000 
+
+Iter-1000 worker 2, loss: 1.2577 validation: 0.979600 
+
+Iter-1000 worker 3, loss: 1.2407 validation: 0.979800 
+
+Iter-1000 worker 4, loss: 1.2926 validation: 0.979800 
+
+Iter-1000 average loss 1.2566292176388885 
+Iter-1050 worker 1, loss: 1.2348 validation: 0.981800 
+
+Iter-1050 worker 2, loss: 1.2622 validation: 0.981600 
+
+Iter-1050 worker 3, loss: 1.2841 validation: 0.979800 
+
+Iter-1050 worker 4, loss: 1.2285 validation: 0.980800 
+
+Iter-1050 average loss 1.2523917434070952 
+Iter-1100 worker 1, loss: 1.2345 validation: 0.982000 
+
+Iter-1100 worker 2, loss: 1.2400 validation: 0.983200 
+
+Iter-1100 worker 3, loss: 1.2382 validation: 0.979400 
+
+Iter-1100 worker 4, loss: 1.2269 validation: 0.982600 
+
+Iter-1100 average loss 1.2348933703384624 
+Iter-1150 worker 1, loss: 1.2577 validation: 0.983200 
+
+Iter-1150 worker 2, loss: 1.2442 validation: 0.981600 
+
+Iter-1150 worker 3, loss: 1.2417 validation: 0.980000 
+
+Iter-1150 worker 4, loss: 1.2298 validation: 0.982600 
+
+Iter-1150 average loss 1.2433664341632258 
+Iter-1200 worker 1, loss: 1.2360 validation: 0.984200 
+
+Iter-1200 worker 2, loss: 1.2449 validation: 0.982000 
+
+Iter-1200 worker 3, loss: 1.2491 validation: 0.981000 
+
+Iter-1200 worker 4, loss: 1.2500 validation: 0.982400 
+
+Iter-1200 average loss 1.2449930273899055 
+Iter-1250 worker 1, loss: 1.2356 validation: 0.983000 
+
+Iter-1250 worker 2, loss: 1.2459 validation: 0.983800 
+
+Iter-1250 worker 3, loss: 1.2492 validation: 0.980000 
+
+Iter-1250 worker 4, loss: 1.2266 validation: 0.981000 
+
+Iter-1250 average loss 1.239320354307704 
+Iter-1300 worker 1, loss: 1.2345 validation: 0.985800 
+
+Iter-1300 worker 2, loss: 1.2492 validation: 0.983600 
+
+Iter-1300 worker 3, loss: 1.2397 validation: 0.982800 
+
+Iter-1300 worker 4, loss: 1.2278 validation: 0.981800 
+
+Iter-1300 average loss 1.2378190407650995 
+Iter-1350 worker 1, loss: 1.2380 validation: 0.984200 
+
+Iter-1350 worker 2, loss: 1.2430 validation: 0.983200 
+
+Iter-1350 worker 3, loss: 1.2393 validation: 0.978400 
+
+Iter-1350 worker 4, loss: 1.2294 validation: 0.981800 
+
+Iter-1350 average loss 1.2374195638282264 
+Iter-1400 worker 1, loss: 1.2376 validation: 0.985600 
+
+Iter-1400 worker 2, loss: 1.2417 validation: 0.981800 
+
+Iter-1400 worker 3, loss: 1.2407 validation: 0.980400 
+
+Iter-1400 worker 4, loss: 1.2292 validation: 0.982000 
+
+Iter-1400 average loss 1.23728844186329 
+Iter-1450 worker 1, loss: 1.2367 validation: 0.985400 
+
+Iter-1450 worker 2, loss: 1.2421 validation: 0.984000 
+
+Iter-1450 worker 3, loss: 1.2391 validation: 0.980400 
+
+Iter-1450 worker 4, loss: 1.2287 validation: 0.980400 
+
+Iter-1450 average loss 1.2366388033630846 
+Iter-1500 worker 1, loss: 1.2385 validation: 0.986800 
+
+Iter-1500 worker 2, loss: 1.2457 validation: 0.983200 
+
+Iter-1500 worker 3, loss: 1.2413 validation: 0.980600 
+
+Iter-1500 worker 4, loss: 1.2280 validation: 0.981800 
+
+Iter-1500 average loss 1.238358565850493 
+Iter-50 loss: 1.2932 validation: 0.946600
+Iter-100 loss: 1.2614 validation: 0.944800
+Iter-150 loss: 1.3377 validation: 0.965800
+Iter-200 loss: 1.2115 validation: 0.971000
+Iter-250 loss: 1.3106 validation: 0.969400
+Iter-300 loss: 1.2315 validation: 0.974600
+Iter-350 loss: 1.2514 validation: 0.975600
+Iter-400 loss: 1.2329 validation: 0.971200
+Iter-450 loss: 1.2496 validation: 0.968200
+Iter-500 loss: 1.2381 validation: 0.978600
+Iter-550 loss: 1.2233 validation: 0.980000
+Iter-600 loss: 1.2261 validation: 0.981600
+Iter-650 loss: 1.2400 validation: 0.982800
+Iter-700 loss: 1.2884 validation: 0.978200
+Iter-750 loss: 1.2342 validation: 0.982800
+Iter-800 loss: 1.2297 validation: 0.980800
+Iter-850 loss: 1.2326 validation: 0.983200
+Iter-900 loss: 1.2303 validation: 0.982600
+Iter-950 loss: 1.2302 validation: 0.984000
+Iter-1000 loss: 1.2313 validation: 0.984400
+Iter-1050 loss: 1.2314 validation: 0.983800
+Iter-1100 loss: 1.2361 validation: 0.982600
+Iter-1150 loss: 1.2320 validation: 0.983600
+Iter-1200 loss: 1.2360 validation: 0.983200
+Iter-1250 loss: 1.2333 validation: 0.984600
+Iter-1300 loss: 1.2328 validation: 0.984600
+Iter-1350 loss: 1.2330 validation: 0.983800
+Iter-1400 loss: 1.2330 validation: 0.985600
+Iter-1450 loss: 1.2343 validation: 0.985200
+Iter-1500 loss: 1.2340 validation: 0.984000
+Iter-50 loss: 1.2826 validation: 0.936600
+Iter-100 loss: 1.3602 validation: 0.953600
+Iter-150 loss: 1.3533 validation: 0.965200
+Iter-200 loss: 1.4847 validation: 0.963200
+Iter-250 loss: 1.3004 validation: 0.975000
+Iter-300 loss: 1.2741 validation: 0.976000
+Iter-350 loss: 1.2510 validation: 0.975600
+Iter-400 loss: 1.2476 validation: 0.974000
+Iter-450 loss: 1.2838 validation: 0.973800
+Iter-500 loss: 1.2625 validation: 0.974800
+Iter-550 loss: 1.2809 validation: 0.982800
+Iter-600 loss: 1.2405 validation: 0.978800
+Iter-650 loss: 1.3812 validation: 0.982000
+Iter-700 loss: 1.2701 validation: 0.985800
+Iter-750 loss: 1.2469 validation: 0.982600
+Iter-800 loss: 1.3679 validation: 0.980000
+Iter-850 loss: 1.2515 validation: 0.982000
+Iter-900 loss: 1.2545 validation: 0.983200
+Iter-950 loss: 1.3367 validation: 0.985200
+Iter-1000 loss: 1.2572 validation: 0.983400
+Iter-1050 loss: 1.4339 validation: 0.985800
+Iter-1100 loss: 1.2547 validation: 0.985200
+Iter-1150 loss: 1.2935 validation: 0.985600
+Iter-1200 loss: 1.2645 validation: 0.984000
+Iter-1250 loss: 1.3743 validation: 0.986000
+Iter-1300 loss: 1.2978 validation: 0.987200
+Iter-1350 loss: 1.2937 validation: 0.988000
+Iter-1400 loss: 1.3319 validation: 0.986400
+Iter-1450 loss: 1.2676 validation: 0.986600
+Iter-1500 loss: 1.2877 validation: 0.989000
+
+Mean accuracy 1: 0.9832, std: 0.0000
+Mean accuracy 2: 0.9804, std: 0.0000
+Mean accuracy 3: 0.9814, std: 0.0000
+Mean accuracy 4: 0.9853, std: 0.0000
+Mean accuracy :0.9840,std :0.0000
+Mean accuracy :0.9872,std :0.0000
+5 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3022 validation: 0.944400 
+
+Iter-50 worker 2, loss: 1.6412 validation: 0.795400 
+
+Iter-50 worker 3, loss: 1.3729 validation: 0.933600 
+
+Iter-50 worker 4, loss: 1.4458 validation: 0.918400 
+
+Iter-50 average loss 1.4405011544569974 
+Iter-100 worker 1, loss: 1.2921 validation: 0.955600 
+
+Iter-100 worker 2, loss: 1.2377 validation: 0.948800 
+
+Iter-100 worker 3, loss: 1.2529 validation: 0.963600 
+
+Iter-100 worker 4, loss: 1.3373 validation: 0.934600 
+
+Iter-100 average loss 1.279999629669997 
+Iter-150 worker 1, loss: 1.3878 validation: 0.963200 
+
+Iter-150 worker 2, loss: 1.3134 validation: 0.959600 
+
+Iter-150 worker 3, loss: 1.2368 validation: 0.963600 
+
+Iter-150 worker 4, loss: 1.3997 validation: 0.954800 
+
+Iter-150 average loss 1.3344275692700012 
+Iter-200 worker 1, loss: 1.3313 validation: 0.970000 
+
+Iter-200 worker 2, loss: 1.2420 validation: 0.965600 
+
+Iter-200 worker 3, loss: 1.2314 validation: 0.968000 
+
+Iter-200 worker 4, loss: 1.3009 validation: 0.958400 
+
+Iter-200 average loss 1.276404301534953 
+Iter-250 worker 1, loss: 1.2630 validation: 0.972000 
+
+Iter-250 worker 2, loss: 1.2329 validation: 0.973000 
+
+Iter-250 worker 3, loss: 1.4239 validation: 0.968800 
+
+Iter-250 worker 4, loss: 1.2578 validation: 0.969400 
+
+Iter-250 average loss 1.2944056606627832 
+Iter-300 worker 1, loss: 1.2078 validation: 0.975800 
+
+Iter-300 worker 2, loss: 1.2213 validation: 0.972000 
+
+Iter-300 worker 3, loss: 1.3016 validation: 0.971400 
+
+Iter-300 worker 4, loss: 1.4084 validation: 0.967400 
+
+Iter-300 average loss 1.2847738688516306 
+Iter-350 worker 1, loss: 1.2861 validation: 0.974200 
+
+Iter-350 worker 2, loss: 1.2907 validation: 0.974000 
+
+Iter-350 worker 3, loss: 1.3506 validation: 0.970600 
+
+Iter-350 worker 4, loss: 1.2326 validation: 0.971400 
+
+Iter-350 average loss 1.2900027362845652 
+Iter-400 worker 1, loss: 1.2362 validation: 0.974000 
+
+Iter-400 worker 2, loss: 1.3165 validation: 0.977400 
+
+Iter-400 worker 3, loss: 1.2415 validation: 0.971800 
+
+Iter-400 worker 4, loss: 1.2195 validation: 0.974200 
+
+Iter-400 average loss 1.2534122511491523 
+Iter-450 worker 1, loss: 1.2285 validation: 0.981200 
+
+Iter-450 worker 2, loss: 1.2284 validation: 0.978400 
+
+Iter-450 worker 3, loss: 1.2254 validation: 0.974600 
+
+Iter-450 worker 4, loss: 1.2206 validation: 0.975200 
+
+Iter-450 average loss 1.225719971928808 
+Iter-500 worker 1, loss: 1.2418 validation: 0.980600 
+
+Iter-500 worker 2, loss: 1.2577 validation: 0.974000 
+
+Iter-500 worker 3, loss: 1.2484 validation: 0.976200 
+
+Iter-500 worker 4, loss: 1.2869 validation: 0.974400 
+
+Iter-500 average loss 1.2587164808783342 
+Iter-550 worker 1, loss: 1.2164 validation: 0.975200 
+
+Iter-550 worker 2, loss: 1.2799 validation: 0.947400 
+
+Iter-550 worker 3, loss: 1.2446 validation: 0.973800 
+
+Iter-550 worker 4, loss: 1.2229 validation: 0.977400 
+
+Iter-550 average loss 1.2409309963115778 
+Iter-600 worker 1, loss: 1.2119 validation: 0.983000 
+
+Iter-600 worker 2, loss: 1.2552 validation: 0.978600 
+
+Iter-600 worker 3, loss: 1.2265 validation: 0.976800 
+
+Iter-600 worker 4, loss: 1.2321 validation: 0.979400 
+
+Iter-600 average loss 1.2314172517737743 
+Iter-650 worker 1, loss: 1.2901 validation: 0.982200 
+
+Iter-650 worker 2, loss: 1.2555 validation: 0.980800 
+
+Iter-650 worker 3, loss: 1.2747 validation: 0.975800 
+
+Iter-650 worker 4, loss: 1.2338 validation: 0.976400 
+
+Iter-650 average loss 1.2635460140607488 
+Iter-700 worker 1, loss: 1.2158 validation: 0.980400 
+
+Iter-700 worker 2, loss: 1.2609 validation: 0.982400 
+
+Iter-700 worker 3, loss: 1.2314 validation: 0.976800 
+
+Iter-700 worker 4, loss: 1.2612 validation: 0.977400 
+
+Iter-700 average loss 1.2422980360174383 
+Iter-750 worker 1, loss: 1.2251 validation: 0.984200 
+
+Iter-750 worker 2, loss: 1.4978 validation: 0.982200 
+
+Iter-750 worker 3, loss: 1.2347 validation: 0.974000 
+
+Iter-750 worker 4, loss: 1.2223 validation: 0.977800 
+
+Iter-750 average loss 1.294957956534723 
+Iter-800 worker 1, loss: 1.2202 validation: 0.978600 
+
+Iter-800 worker 2, loss: 1.2418 validation: 0.971200 
+
+Iter-800 worker 3, loss: 1.2330 validation: 0.976200 
+
+Iter-800 worker 4, loss: 1.2215 validation: 0.977600 
+
+Iter-800 average loss 1.229146772306901 
+Iter-850 worker 1, loss: 1.2178 validation: 0.982600 
+
+Iter-850 worker 2, loss: 1.2402 validation: 0.984000 
+
+Iter-850 worker 3, loss: 1.2316 validation: 0.978000 
+
+Iter-850 worker 4, loss: 1.2320 validation: 0.980800 
+
+Iter-850 average loss 1.2304228203890721 
+Iter-900 worker 1, loss: 1.2211 validation: 0.984400 
+
+Iter-900 worker 2, loss: 1.2368 validation: 0.981600 
+
+Iter-900 worker 3, loss: 1.2485 validation: 0.979600 
+
+Iter-900 worker 4, loss: 1.2248 validation: 0.980200 
+
+Iter-900 average loss 1.2328002132044016 
+Iter-950 worker 1, loss: 1.2225 validation: 0.982600 
+
+Iter-950 worker 2, loss: 1.2482 validation: 0.982400 
+
+Iter-950 worker 3, loss: 1.2305 validation: 0.977600 
+
+Iter-950 worker 4, loss: 1.2286 validation: 0.980600 
+
+Iter-950 average loss 1.2324325776419724 
+Iter-1000 worker 1, loss: 1.2295 validation: 0.983200 
+
+Iter-1000 worker 2, loss: 1.2587 validation: 0.984200 
+
+Iter-1000 worker 3, loss: 1.2319 validation: 0.979000 
+
+Iter-1000 worker 4, loss: 1.2240 validation: 0.977600 
+
+Iter-1000 average loss 1.2360270673376306 
+Iter-1050 worker 1, loss: 1.2224 validation: 0.984000 
+
+Iter-1050 worker 2, loss: 1.2378 validation: 0.984600 
+
+Iter-1050 worker 3, loss: 1.2331 validation: 0.980400 
+
+Iter-1050 worker 4, loss: 1.2280 validation: 0.976800 
+
+Iter-1050 average loss 1.2303158878010747 
+Iter-1100 worker 1, loss: 1.2275 validation: 0.986400 
+
+Iter-1100 worker 2, loss: 1.2366 validation: 0.985800 
+
+Iter-1100 worker 3, loss: 1.2357 validation: 0.981000 
+
+Iter-1100 worker 4, loss: 1.2328 validation: 0.979400 
+
+Iter-1100 average loss 1.2331655019252885 
+Iter-1150 worker 1, loss: 1.2205 validation: 0.985000 
+
+Iter-1150 worker 2, loss: 1.2400 validation: 0.985200 
+
+Iter-1150 worker 3, loss: 1.2330 validation: 0.981200 
+
+Iter-1150 worker 4, loss: 1.2276 validation: 0.978200 
+
+Iter-1150 average loss 1.2302684756849698 
+Iter-1200 worker 1, loss: 1.2210 validation: 0.986000 
+
+Iter-1200 worker 2, loss: 1.2385 validation: 0.986600 
+
+Iter-1200 worker 3, loss: 1.2333 validation: 0.980800 
+
+Iter-1200 worker 4, loss: 1.2254 validation: 0.979800 
+
+Iter-1200 average loss 1.2295252581517784 
+Iter-1250 worker 1, loss: 1.2244 validation: 0.987000 
+
+Iter-1250 worker 2, loss: 1.2394 validation: 0.983800 
+
+Iter-1250 worker 3, loss: 1.2325 validation: 0.981400 
+
+Iter-1250 worker 4, loss: 1.2497 validation: 0.980600 
+
+Iter-1250 average loss 1.2365258525773477 
+Iter-1300 worker 1, loss: 1.2213 validation: 0.986600 
+
+Iter-1300 worker 2, loss: 1.2384 validation: 0.984600 
+
+Iter-1300 worker 3, loss: 1.2331 validation: 0.981600 
+
+Iter-1300 worker 4, loss: 1.2256 validation: 0.982200 
+
+Iter-1300 average loss 1.2296078674581885 
+Iter-1350 worker 1, loss: 1.2217 validation: 0.986000 
+
+Iter-1350 worker 2, loss: 1.3007 validation: 0.984200 
+
+Iter-1350 worker 3, loss: 1.2508 validation: 0.980600 
+
+Iter-1350 worker 4, loss: 1.2267 validation: 0.981800 
+
+Iter-1350 average loss 1.2499769654663768 
+Iter-1400 worker 1, loss: 1.2210 validation: 0.986200 
+
+Iter-1400 worker 2, loss: 1.2457 validation: 0.985200 
+
+Iter-1400 worker 3, loss: 1.2466 validation: 0.980200 
+
+Iter-1400 worker 4, loss: 1.2274 validation: 0.980000 
+
+Iter-1400 average loss 1.2351526875772265 
+Iter-1450 worker 1, loss: 1.2231 validation: 0.985800 
+
+Iter-1450 worker 2, loss: 1.2417 validation: 0.984000 
+
+Iter-1450 worker 3, loss: 1.2347 validation: 0.982800 
+
+Iter-1450 worker 4, loss: 1.2300 validation: 0.980000 
+
+Iter-1450 average loss 1.2323678973523 
+Iter-1500 worker 1, loss: 1.2241 validation: 0.985200 
+
+Iter-1500 worker 2, loss: 1.2427 validation: 0.984600 
+
+Iter-1500 worker 3, loss: 1.2457 validation: 0.981400 
+
+Iter-1500 worker 4, loss: 1.2278 validation: 0.982000 
+
+Iter-1500 average loss 1.2350832217150294 
+Iter-50 loss: 1.6016 validation: 0.950400
+Iter-100 loss: 1.2719 validation: 0.966600
+Iter-150 loss: 1.3771 validation: 0.957400
+Iter-200 loss: 1.2300 validation: 0.976800
+Iter-250 loss: 1.4411 validation: 0.972000
+Iter-300 loss: 1.2577 validation: 0.974000
+Iter-350 loss: 1.2287 validation: 0.973400
+Iter-400 loss: 1.2454 validation: 0.980000
+Iter-450 loss: 1.3457 validation: 0.982200
+Iter-500 loss: 1.2532 validation: 0.977000
+Iter-550 loss: 1.2500 validation: 0.982800
+Iter-600 loss: 1.2653 validation: 0.983600
+Iter-650 loss: 1.2442 validation: 0.985400
+Iter-700 loss: 1.2357 validation: 0.984400
+Iter-750 loss: 1.2381 validation: 0.983000
+Iter-800 loss: 1.2383 validation: 0.983600
+Iter-850 loss: 1.2578 validation: 0.982600
+Iter-900 loss: 1.2409 validation: 0.985000
+Iter-950 loss: 1.2396 validation: 0.984000
+Iter-1000 loss: 1.2424 validation: 0.984600
+Iter-1050 loss: 1.2719 validation: 0.985200
+Iter-1100 loss: 1.2390 validation: 0.983600
+Iter-1150 loss: 1.2397 validation: 0.984600
+Iter-1200 loss: 1.2400 validation: 0.984200
+Iter-1250 loss: 1.2400 validation: 0.985000
+Iter-1300 loss: 1.2408 validation: 0.985200
+Iter-1350 loss: 1.2416 validation: 0.984200
+Iter-1400 loss: 1.2425 validation: 0.984800
+Iter-1450 loss: 1.2406 validation: 0.984400
+Iter-1500 loss: 1.2408 validation: 0.984200
+Iter-50 loss: 1.6590 validation: 0.943800
+Iter-100 loss: 1.3803 validation: 0.956800
+Iter-150 loss: 1.3900 validation: 0.964200
+Iter-200 loss: 1.2451 validation: 0.968200
+Iter-250 loss: 1.2969 validation: 0.965800
+Iter-300 loss: 1.3934 validation: 0.971000
+Iter-350 loss: 1.3695 validation: 0.980000
+Iter-400 loss: 1.2988 validation: 0.966600
+Iter-450 loss: 1.2909 validation: 0.979600
+Iter-500 loss: 1.2759 validation: 0.979600
+Iter-550 loss: 1.3645 validation: 0.974800
+Iter-600 loss: 1.4143 validation: 0.970400
+Iter-650 loss: 1.2932 validation: 0.982000
+Iter-700 loss: 1.2848 validation: 0.980200
+Iter-750 loss: 1.3404 validation: 0.984400
+Iter-800 loss: 1.2591 validation: 0.985000
+Iter-850 loss: 1.2643 validation: 0.984200
+Iter-900 loss: 1.3721 validation: 0.985000
+Iter-950 loss: 1.3712 validation: 0.987600
+Iter-1000 loss: 1.3393 validation: 0.984200
+Iter-1050 loss: 1.2845 validation: 0.985600
+Iter-1100 loss: 1.3154 validation: 0.986800
+Iter-1150 loss: 1.2781 validation: 0.985800
+Iter-1200 loss: 1.3550 validation: 0.984000
+Iter-1250 loss: 1.2922 validation: 0.984600
+Iter-1300 loss: 1.2944 validation: 0.987000
+Iter-1350 loss: 1.3137 validation: 0.981200
+Iter-1400 loss: 1.2795 validation: 0.986800
+Iter-1450 loss: 1.2888 validation: 0.986200
+Iter-1500 loss: 1.3760 validation: 0.980800
+
+Mean accuracy 1: 0.9821, std: 0.0000
+Mean accuracy 2: 0.9841, std: 0.0000
+Mean accuracy 3: 0.9814, std: 0.0000
+Mean accuracy 4: 0.9795, std: 0.0000
+Mean accuracy :0.9848,std :0.0000
+Mean accuracy :0.9796,std :0.0000
+6 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3385 validation: 0.935400 
+
+Iter-50 worker 2, loss: 1.3023 validation: 0.928600 
+
+Iter-50 worker 3, loss: 1.5214 validation: 0.928800 
+
+Iter-50 worker 4, loss: 1.5216 validation: 0.931800 
+
+Iter-50 average loss 1.420952874452432 
+Iter-100 worker 1, loss: 1.3892 validation: 0.930400 
+
+Iter-100 worker 2, loss: 1.2884 validation: 0.933200 
+
+Iter-100 worker 3, loss: 1.3085 validation: 0.952800 
+
+Iter-100 worker 4, loss: 1.3336 validation: 0.946200 
+
+Iter-100 average loss 1.3299121942829206 
+Iter-150 worker 1, loss: 1.3196 validation: 0.963400 
+
+Iter-150 worker 2, loss: 1.2240 validation: 0.963200 
+
+Iter-150 worker 3, loss: 1.4581 validation: 0.963000 
+
+Iter-150 worker 4, loss: 1.3162 validation: 0.956800 
+
+Iter-150 average loss 1.329474680965447 
+Iter-200 worker 1, loss: 1.3185 validation: 0.968200 
+
+Iter-200 worker 2, loss: 1.4252 validation: 0.968200 
+
+Iter-200 worker 3, loss: 1.3030 validation: 0.962800 
+
+Iter-200 worker 4, loss: 1.3569 validation: 0.957400 
+
+Iter-200 average loss 1.350910533670386 
+Iter-250 worker 1, loss: 1.2368 validation: 0.970000 
+
+Iter-250 worker 2, loss: 1.2813 validation: 0.970600 
+
+Iter-250 worker 3, loss: 1.2535 validation: 0.971800 
+
+Iter-250 worker 4, loss: 1.3778 validation: 0.962600 
+
+Iter-250 average loss 1.287367171670701 
+Iter-300 worker 1, loss: 1.3667 validation: 0.972400 
+
+Iter-300 worker 2, loss: 1.2482 validation: 0.972400 
+
+Iter-300 worker 3, loss: 1.2229 validation: 0.968600 
+
+Iter-300 worker 4, loss: 1.2310 validation: 0.962200 
+
+Iter-300 average loss 1.2672139297871363 
+Iter-350 worker 1, loss: 1.2275 validation: 0.972000 
+
+Iter-350 worker 2, loss: 1.3118 validation: 0.976200 
+
+Iter-350 worker 3, loss: 1.2375 validation: 0.965000 
+
+Iter-350 worker 4, loss: 1.2511 validation: 0.969600 
+
+Iter-350 average loss 1.256970033292959 
+Iter-400 worker 1, loss: 1.2531 validation: 0.973600 
+
+Iter-400 worker 2, loss: 1.4828 validation: 0.973200 
+
+Iter-400 worker 3, loss: 1.2632 validation: 0.973200 
+
+Iter-400 worker 4, loss: 1.2713 validation: 0.971000 
+
+Iter-400 average loss 1.317631759064268 
+Iter-450 worker 1, loss: 1.2458 validation: 0.972600 
+
+Iter-450 worker 2, loss: 1.3248 validation: 0.975000 
+
+Iter-450 worker 3, loss: 1.2324 validation: 0.976200 
+
+Iter-450 worker 4, loss: 1.2438 validation: 0.971000 
+
+Iter-450 average loss 1.2617130180018372 
+Iter-500 worker 1, loss: 1.2288 validation: 0.976600 
+
+Iter-500 worker 2, loss: 1.2445 validation: 0.972600 
+
+Iter-500 worker 3, loss: 1.2465 validation: 0.969000 
+
+Iter-500 worker 4, loss: 1.2432 validation: 0.966800 
+
+Iter-500 average loss 1.2407472515589675 
+Iter-550 worker 1, loss: 1.3575 validation: 0.978400 
+
+Iter-550 worker 2, loss: 1.3445 validation: 0.976600 
+
+Iter-550 worker 3, loss: 1.2339 validation: 0.975600 
+
+Iter-550 worker 4, loss: 1.3806 validation: 0.954200 
+
+Iter-550 average loss 1.3291224781741908 
+Iter-600 worker 1, loss: 1.2338 validation: 0.979800 
+
+Iter-600 worker 2, loss: 1.3343 validation: 0.978200 
+
+Iter-600 worker 3, loss: 1.2519 validation: 0.975200 
+
+Iter-600 worker 4, loss: 1.2483 validation: 0.974000 
+
+Iter-600 average loss 1.2670615177821811 
+Iter-650 worker 1, loss: 1.2646 validation: 0.981000 
+
+Iter-650 worker 2, loss: 1.2335 validation: 0.979600 
+
+Iter-650 worker 3, loss: 1.2319 validation: 0.974800 
+
+Iter-650 worker 4, loss: 1.2512 validation: 0.978600 
+
+Iter-650 average loss 1.245295974754398 
+Iter-700 worker 1, loss: 1.2323 validation: 0.980800 
+
+Iter-700 worker 2, loss: 1.2340 validation: 0.976400 
+
+Iter-700 worker 3, loss: 1.2590 validation: 0.980000 
+
+Iter-700 worker 4, loss: 1.2659 validation: 0.976600 
+
+Iter-700 average loss 1.2477771163179674 
+Iter-750 worker 1, loss: 1.2356 validation: 0.982200 
+
+Iter-750 worker 2, loss: 1.2422 validation: 0.978600 
+
+Iter-750 worker 3, loss: 1.2328 validation: 0.979200 
+
+Iter-750 worker 4, loss: 1.2523 validation: 0.974600 
+
+Iter-750 average loss 1.24071349631819 
+Iter-800 worker 1, loss: 1.2521 validation: 0.979800 
+
+Iter-800 worker 2, loss: 1.2339 validation: 0.977200 
+
+Iter-800 worker 3, loss: 1.2318 validation: 0.980000 
+
+Iter-800 worker 4, loss: 1.2455 validation: 0.979200 
+
+Iter-800 average loss 1.2407992293067365 
+Iter-850 worker 1, loss: 1.2395 validation: 0.979400 
+
+Iter-850 worker 2, loss: 1.2439 validation: 0.980000 
+
+Iter-850 worker 3, loss: 1.2307 validation: 0.981200 
+
+Iter-850 worker 4, loss: 1.2451 validation: 0.978200 
+
+Iter-850 average loss 1.239788653175725 
+Iter-900 worker 1, loss: 1.2360 validation: 0.981000 
+
+Iter-900 worker 2, loss: 1.2963 validation: 0.979400 
+
+Iter-900 worker 3, loss: 1.2362 validation: 0.981400 
+
+Iter-900 worker 4, loss: 1.2397 validation: 0.980600 
+
+Iter-900 average loss 1.2520509410036642 
+Iter-950 worker 1, loss: 1.2425 validation: 0.980400 
+
+Iter-950 worker 2, loss: 1.2382 validation: 0.981400 
+
+Iter-950 worker 3, loss: 1.2528 validation: 0.981000 
+
+Iter-950 worker 4, loss: 1.2457 validation: 0.980600 
+
+Iter-950 average loss 1.2448154685396058 
+Iter-1000 worker 1, loss: 1.2370 validation: 0.981000 
+
+Iter-1000 worker 2, loss: 1.2366 validation: 0.978800 
+
+Iter-1000 worker 3, loss: 1.2526 validation: 0.982200 
+
+Iter-1000 worker 4, loss: 1.2421 validation: 0.980000 
+
+Iter-1000 average loss 1.2420808318535763 
+Iter-1050 worker 1, loss: 1.2361 validation: 0.983000 
+
+Iter-1050 worker 2, loss: 1.2448 validation: 0.981600 
+
+Iter-1050 worker 3, loss: 1.2443 validation: 0.979400 
+
+Iter-1050 worker 4, loss: 1.2654 validation: 0.981200 
+
+Iter-1050 average loss 1.2476542492128733 
+Iter-1100 worker 1, loss: 1.2388 validation: 0.983800 
+
+Iter-1100 worker 2, loss: 1.2446 validation: 0.982200 
+
+Iter-1100 worker 3, loss: 1.2345 validation: 0.981600 
+
+Iter-1100 worker 4, loss: 1.2549 validation: 0.980400 
+
+Iter-1100 average loss 1.2432085525580903 
+Iter-1150 worker 1, loss: 1.2403 validation: 0.982800 
+
+Iter-1150 worker 2, loss: 1.2392 validation: 0.981200 
+
+Iter-1150 worker 3, loss: 1.2340 validation: 0.980400 
+
+Iter-1150 worker 4, loss: 1.4554 validation: 0.981400 
+
+Iter-1150 average loss 1.2922425652594147 
+Iter-1200 worker 1, loss: 1.2704 validation: 0.982800 
+
+Iter-1200 worker 2, loss: 1.2393 validation: 0.982200 
+
+Iter-1200 worker 3, loss: 1.2383 validation: 0.981200 
+
+Iter-1200 worker 4, loss: 1.2453 validation: 0.982400 
+
+Iter-1200 average loss 1.2483155081362234 
+Iter-1250 worker 1, loss: 1.2698 validation: 0.983400 
+
+Iter-1250 worker 2, loss: 1.2459 validation: 0.982800 
+
+Iter-1250 worker 3, loss: 1.2355 validation: 0.981200 
+
+Iter-1250 worker 4, loss: 1.2460 validation: 0.980000 
+
+Iter-1250 average loss 1.2493140346578286 
+Iter-1300 worker 1, loss: 1.2440 validation: 0.981600 
+
+Iter-1300 worker 2, loss: 1.2407 validation: 0.981800 
+
+Iter-1300 worker 3, loss: 1.2411 validation: 0.979600 
+
+Iter-1300 worker 4, loss: 1.2445 validation: 0.981200 
+
+Iter-1300 average loss 1.2425887425959299 
+Iter-1350 worker 1, loss: 1.2427 validation: 0.983200 
+
+Iter-1350 worker 2, loss: 1.2408 validation: 0.982400 
+
+Iter-1350 worker 3, loss: 1.2363 validation: 0.980800 
+
+Iter-1350 worker 4, loss: 1.2457 validation: 0.980400 
+
+Iter-1350 average loss 1.24137994821477 
+Iter-1400 worker 1, loss: 1.3236 validation: 0.985000 
+
+Iter-1400 worker 2, loss: 1.3311 validation: 0.982400 
+
+Iter-1400 worker 3, loss: 1.2465 validation: 0.972000 
+
+Iter-1400 worker 4, loss: 1.2466 validation: 0.980000 
+
+Iter-1400 average loss 1.2869406580167635 
+Iter-1450 worker 1, loss: 1.2440 validation: 0.982200 
+
+Iter-1450 worker 2, loss: 1.2404 validation: 0.980400 
+
+Iter-1450 worker 3, loss: 1.2457 validation: 0.982000 
+
+Iter-1450 worker 4, loss: 1.2440 validation: 0.981200 
+
+Iter-1450 average loss 1.2435511242899109 
+Iter-1500 worker 1, loss: 1.2398 validation: 0.983800 
+
+Iter-1500 worker 2, loss: 1.2410 validation: 0.981800 
+
+Iter-1500 worker 3, loss: 1.2382 validation: 0.982000 
+
+Iter-1500 worker 4, loss: 1.2476 validation: 0.980200 
+
+Iter-1500 average loss 1.2416556041935185 
+Iter-50 loss: 1.3503 validation: 0.936400
+Iter-100 loss: 1.4738 validation: 0.952800
+Iter-150 loss: 1.2882 validation: 0.934200
+Iter-200 loss: 1.2370 validation: 0.971000
+Iter-250 loss: 1.2249 validation: 0.973200
+Iter-300 loss: 1.2267 validation: 0.973400
+Iter-350 loss: 1.2548 validation: 0.977800
+Iter-400 loss: 1.2854 validation: 0.978000
+Iter-450 loss: 1.2389 validation: 0.977000
+Iter-500 loss: 1.2370 validation: 0.978800
+Iter-550 loss: 1.2371 validation: 0.979400
+Iter-600 loss: 1.2395 validation: 0.980400
+Iter-650 loss: 1.2835 validation: 0.983200
+Iter-700 loss: 1.2437 validation: 0.982400
+Iter-750 loss: 1.2426 validation: 0.983000
+Iter-800 loss: 1.2494 validation: 0.981200
+Iter-850 loss: 1.2536 validation: 0.985400
+Iter-900 loss: 1.2427 validation: 0.985000
+Iter-950 loss: 1.2434 validation: 0.985000
+Iter-1000 loss: 1.2457 validation: 0.985400
+Iter-1050 loss: 1.2441 validation: 0.985400
+Iter-1100 loss: 1.2480 validation: 0.986000
+Iter-1150 loss: 1.2438 validation: 0.985800
+Iter-1200 loss: 1.2444 validation: 0.985600
+Iter-1250 loss: 1.2454 validation: 0.986000
+Iter-1300 loss: 1.2448 validation: 0.985800
+Iter-1350 loss: 1.2448 validation: 0.985800
+Iter-1400 loss: 1.2456 validation: 0.985600
+Iter-1450 loss: 1.2454 validation: 0.986200
+Iter-1500 loss: 1.2451 validation: 0.987200
+Iter-50 loss: 1.4696 validation: 0.912000
+Iter-100 loss: 1.3002 validation: 0.918200
+Iter-150 loss: 1.3301 validation: 0.958400
+Iter-200 loss: 1.2708 validation: 0.966600
+Iter-250 loss: 1.3721 validation: 0.970800
+Iter-300 loss: 1.2397 validation: 0.974200
+Iter-350 loss: 1.2839 validation: 0.976800
+Iter-400 loss: 1.2365 validation: 0.978800
+Iter-450 loss: 1.2408 validation: 0.976200
+Iter-500 loss: 1.2408 validation: 0.979400
+Iter-550 loss: 1.2389 validation: 0.979800
+Iter-600 loss: 1.2605 validation: 0.982600
+Iter-650 loss: 1.2876 validation: 0.980000
+Iter-700 loss: 1.2478 validation: 0.981200
+Iter-750 loss: 1.2586 validation: 0.980600
+Iter-800 loss: 1.2886 validation: 0.978000
+Iter-850 loss: 1.2583 validation: 0.979200
+Iter-900 loss: 1.2986 validation: 0.983200
+Iter-950 loss: 1.2671 validation: 0.977800
+Iter-1000 loss: 1.3366 validation: 0.985600
+Iter-1050 loss: 1.2648 validation: 0.987400
+Iter-1100 loss: 1.2747 validation: 0.984400
+Iter-1150 loss: 1.2570 validation: 0.985800
+Iter-1200 loss: 1.3359 validation: 0.987800
+Iter-1250 loss: 1.3765 validation: 0.987000
+Iter-1300 loss: 1.2756 validation: 0.985800
+Iter-1350 loss: 1.2607 validation: 0.987000
+Iter-1400 loss: 1.2634 validation: 0.987200
+Iter-1450 loss: 1.2842 validation: 0.985200
+Iter-1500 loss: 1.2678 validation: 0.988200
+
+Mean accuracy 1: 0.9817, std: 0.0000
+Mean accuracy 2: 0.9823, std: 0.0000
+Mean accuracy 3: 0.9836, std: 0.0000
+Mean accuracy 4: 0.9775, std: 0.0000
+Mean accuracy :0.9859,std :0.0000
+Mean accuracy :0.9863,std :0.0000
+7 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.4422 validation: 0.945800 
+
+Iter-50 worker 2, loss: 1.3890 validation: 0.931200 
+
+Iter-50 worker 3, loss: 1.4037 validation: 0.858000 
+
+Iter-50 worker 4, loss: 1.3667 validation: 0.924200 
+
+Iter-50 average loss 1.4003770538547555 
+Iter-100 worker 1, loss: 1.4678 validation: 0.955600 
+
+Iter-100 worker 2, loss: 1.3088 validation: 0.945000 
+
+Iter-100 worker 3, loss: 1.3459 validation: 0.925400 
+
+Iter-100 worker 4, loss: 1.3742 validation: 0.950200 
+
+Iter-100 average loss 1.3741463375300818 
+Iter-150 worker 1, loss: 1.4388 validation: 0.962200 
+
+Iter-150 worker 2, loss: 1.2848 validation: 0.964400 
+
+Iter-150 worker 3, loss: 1.2958 validation: 0.947000 
+
+Iter-150 worker 4, loss: 1.3391 validation: 0.946000 
+
+Iter-150 average loss 1.33962292374942 
+Iter-200 worker 1, loss: 1.4446 validation: 0.959200 
+
+Iter-200 worker 2, loss: 1.2768 validation: 0.973600 
+
+Iter-200 worker 3, loss: 1.2601 validation: 0.963800 
+
+Iter-200 worker 4, loss: 1.3560 validation: 0.965600 
+
+Iter-200 average loss 1.334389834019622 
+Iter-250 worker 1, loss: 1.2877 validation: 0.958800 
+
+Iter-250 worker 2, loss: 1.3529 validation: 0.972400 
+
+Iter-250 worker 3, loss: 1.2222 validation: 0.969400 
+
+Iter-250 worker 4, loss: 1.2222 validation: 0.964600 
+
+Iter-250 average loss 1.2712682480919035 
+Iter-300 worker 1, loss: 1.2354 validation: 0.971800 
+
+Iter-300 worker 2, loss: 1.2460 validation: 0.976600 
+
+Iter-300 worker 3, loss: 1.2506 validation: 0.970600 
+
+Iter-300 worker 4, loss: 1.2331 validation: 0.969000 
+
+Iter-300 average loss 1.2412878440292499 
+Iter-350 worker 1, loss: 1.3209 validation: 0.975600 
+
+Iter-350 worker 2, loss: 1.2348 validation: 0.974000 
+
+Iter-350 worker 3, loss: 1.2412 validation: 0.976600 
+
+Iter-350 worker 4, loss: 1.3623 validation: 0.972200 
+
+Iter-350 average loss 1.289792372417681 
+Iter-400 worker 1, loss: 1.2862 validation: 0.975000 
+
+Iter-400 worker 2, loss: 1.2481 validation: 0.976000 
+
+Iter-400 worker 3, loss: 1.2542 validation: 0.967800 
+
+Iter-400 worker 4, loss: 1.3269 validation: 0.972200 
+
+Iter-400 average loss 1.2788174746554846 
+Iter-450 worker 1, loss: 1.2505 validation: 0.977400 
+
+Iter-450 worker 2, loss: 1.2786 validation: 0.973000 
+
+Iter-450 worker 3, loss: 1.2819 validation: 0.974200 
+
+Iter-450 worker 4, loss: 1.2186 validation: 0.976600 
+
+Iter-450 average loss 1.25737983794897 
+Iter-500 worker 1, loss: 1.2811 validation: 0.978400 
+
+Iter-500 worker 2, loss: 1.2341 validation: 0.978200 
+
+Iter-500 worker 3, loss: 1.2536 validation: 0.972200 
+
+Iter-500 worker 4, loss: 1.2328 validation: 0.977800 
+
+Iter-500 average loss 1.250395060320968 
+Iter-550 worker 1, loss: 1.2568 validation: 0.978600 
+
+Iter-550 worker 2, loss: 1.2361 validation: 0.979000 
+
+Iter-550 worker 3, loss: 1.2619 validation: 0.976200 
+
+Iter-550 worker 4, loss: 1.2685 validation: 0.979800 
+
+Iter-550 average loss 1.2557997300832067 
+Iter-600 worker 1, loss: 1.2472 validation: 0.978400 
+
+Iter-600 worker 2, loss: 1.2515 validation: 0.979400 
+
+Iter-600 worker 3, loss: 1.2351 validation: 0.978800 
+
+Iter-600 worker 4, loss: 1.2304 validation: 0.980800 
+
+Iter-600 average loss 1.2410392482696548 
+Iter-650 worker 1, loss: 1.2915 validation: 0.980800 
+
+Iter-650 worker 2, loss: 1.2426 validation: 0.976400 
+
+Iter-650 worker 3, loss: 1.2393 validation: 0.976800 
+
+Iter-650 worker 4, loss: 1.2254 validation: 0.978600 
+
+Iter-650 average loss 1.2497040199556926 
+Iter-700 worker 1, loss: 1.2439 validation: 0.980800 
+
+Iter-700 worker 2, loss: 1.2347 validation: 0.980000 
+
+Iter-700 worker 3, loss: 1.2353 validation: 0.978200 
+
+Iter-700 worker 4, loss: 1.2297 validation: 0.977600 
+
+Iter-700 average loss 1.2358982337611932 
+Iter-750 worker 1, loss: 1.2742 validation: 0.972400 
+
+Iter-750 worker 2, loss: 1.2373 validation: 0.978800 
+
+Iter-750 worker 3, loss: 1.2374 validation: 0.978800 
+
+Iter-750 worker 4, loss: 1.2302 validation: 0.979600 
+
+Iter-750 average loss 1.2447983078571137 
+Iter-800 worker 1, loss: 1.2507 validation: 0.981000 
+
+Iter-800 worker 2, loss: 1.2504 validation: 0.980000 
+
+Iter-800 worker 3, loss: 1.2356 validation: 0.979600 
+
+Iter-800 worker 4, loss: 1.2287 validation: 0.980800 
+
+Iter-800 average loss 1.241347088268618 
+Iter-850 worker 1, loss: 1.2557 validation: 0.980600 
+
+Iter-850 worker 2, loss: 1.2387 validation: 0.981200 
+
+Iter-850 worker 3, loss: 1.2429 validation: 0.977800 
+
+Iter-850 worker 4, loss: 1.2258 validation: 0.982400 
+
+Iter-850 average loss 1.2407631590866175 
+Iter-900 worker 1, loss: 1.2551 validation: 0.984000 
+
+Iter-900 worker 2, loss: 1.2685 validation: 0.979200 
+
+Iter-900 worker 3, loss: 1.2390 validation: 0.979600 
+
+Iter-900 worker 4, loss: 1.2255 validation: 0.979800 
+
+Iter-900 average loss 1.2470483640502692 
+Iter-950 worker 1, loss: 1.2522 validation: 0.984000 
+
+Iter-950 worker 2, loss: 1.2508 validation: 0.977000 
+
+Iter-950 worker 3, loss: 1.2474 validation: 0.980200 
+
+Iter-950 worker 4, loss: 1.2288 validation: 0.978800 
+
+Iter-950 average loss 1.2448168854238242 
+Iter-1000 worker 1, loss: 1.2457 validation: 0.984600 
+
+Iter-1000 worker 2, loss: 1.2420 validation: 0.981200 
+
+Iter-1000 worker 3, loss: 1.2610 validation: 0.980000 
+
+Iter-1000 worker 4, loss: 1.2282 validation: 0.980200 
+
+Iter-1000 average loss 1.2442347243466003 
+Iter-1050 worker 1, loss: 1.2470 validation: 0.983400 
+
+Iter-1050 worker 2, loss: 1.2412 validation: 0.980000 
+
+Iter-1050 worker 3, loss: 1.2419 validation: 0.980600 
+
+Iter-1050 worker 4, loss: 1.2259 validation: 0.981400 
+
+Iter-1050 average loss 1.2390107573559828 
+Iter-1100 worker 1, loss: 1.2511 validation: 0.983600 
+
+Iter-1100 worker 2, loss: 1.2432 validation: 0.982600 
+
+Iter-1100 worker 3, loss: 1.2428 validation: 0.982400 
+
+Iter-1100 worker 4, loss: 1.2486 validation: 0.983600 
+
+Iter-1100 average loss 1.2464179015104382 
+Iter-1150 worker 1, loss: 1.2471 validation: 0.985000 
+
+Iter-1150 worker 2, loss: 1.2499 validation: 0.982400 
+
+Iter-1150 worker 3, loss: 1.2892 validation: 0.982200 
+
+Iter-1150 worker 4, loss: 1.2499 validation: 0.982000 
+
+Iter-1150 average loss 1.2590366326513092 
+Iter-1200 worker 1, loss: 1.2633 validation: 0.983400 
+
+Iter-1200 worker 2, loss: 1.2426 validation: 0.982600 
+
+Iter-1200 worker 3, loss: 1.2433 validation: 0.982600 
+
+Iter-1200 worker 4, loss: 1.2327 validation: 0.982200 
+
+Iter-1200 average loss 1.245470270819965 
+Iter-1250 worker 1, loss: 1.2488 validation: 0.983200 
+
+Iter-1250 worker 2, loss: 1.2402 validation: 0.984400 
+
+Iter-1250 worker 3, loss: 1.2445 validation: 0.983000 
+
+Iter-1250 worker 4, loss: 1.2334 validation: 0.981400 
+
+Iter-1250 average loss 1.241702335693608 
+Iter-1300 worker 1, loss: 1.2477 validation: 0.985200 
+
+Iter-1300 worker 2, loss: 1.2691 validation: 0.982200 
+
+Iter-1300 worker 3, loss: 1.2418 validation: 0.981600 
+
+Iter-1300 worker 4, loss: 1.2280 validation: 0.982400 
+
+Iter-1300 average loss 1.2466365604313414 
+Iter-1350 worker 1, loss: 1.2484 validation: 0.984200 
+
+Iter-1350 worker 2, loss: 1.2433 validation: 0.982000 
+
+Iter-1350 worker 3, loss: 1.2440 validation: 0.982800 
+
+Iter-1350 worker 4, loss: 1.2425 validation: 0.981200 
+
+Iter-1350 average loss 1.244567429678961 
+Iter-1400 worker 1, loss: 1.2561 validation: 0.983600 
+
+Iter-1400 worker 2, loss: 1.2596 validation: 0.984200 
+
+Iter-1400 worker 3, loss: 1.2447 validation: 0.982200 
+
+Iter-1400 worker 4, loss: 1.2313 validation: 0.981400 
+
+Iter-1400 average loss 1.2479087973297733 
+Iter-1450 worker 1, loss: 1.2481 validation: 0.983200 
+
+Iter-1450 worker 2, loss: 1.2416 validation: 0.982400 
+
+Iter-1450 worker 3, loss: 1.2426 validation: 0.982800 
+
+Iter-1450 worker 4, loss: 1.2287 validation: 0.983400 
+
+Iter-1450 average loss 1.2402815508098866 
+Iter-1500 worker 1, loss: 1.2662 validation: 0.984200 
+
+Iter-1500 worker 2, loss: 1.2531 validation: 0.981600 
+
+Iter-1500 worker 3, loss: 1.2429 validation: 0.983400 
+
+Iter-1500 worker 4, loss: 1.2297 validation: 0.981800 
+
+Iter-1500 average loss 1.247992385676709 
+Iter-50 loss: 1.4415 validation: 0.942600
+Iter-100 loss: 1.2671 validation: 0.954800
+Iter-150 loss: 1.2797 validation: 0.968200
+Iter-200 loss: 1.2284 validation: 0.972200
+Iter-250 loss: 1.2626 validation: 0.977000
+Iter-300 loss: 1.2846 validation: 0.972000
+Iter-350 loss: 1.2624 validation: 0.978200
+Iter-400 loss: 1.2402 validation: 0.979800
+Iter-450 loss: 1.2444 validation: 0.976000
+Iter-500 loss: 1.2448 validation: 0.973200
+Iter-550 loss: 1.2773 validation: 0.978600
+Iter-600 loss: 1.2449 validation: 0.983600
+Iter-650 loss: 1.2457 validation: 0.985800
+Iter-700 loss: 1.2543 validation: 0.984600
+Iter-750 loss: 1.2459 validation: 0.983600
+Iter-800 loss: 1.2468 validation: 0.986200
+Iter-850 loss: 1.2488 validation: 0.983600
+Iter-900 loss: 1.2480 validation: 0.983600
+Iter-950 loss: 1.2491 validation: 0.984800
+Iter-1000 loss: 1.2496 validation: 0.985000
+Iter-1050 loss: 1.2534 validation: 0.984800
+Iter-1100 loss: 1.2510 validation: 0.986600
+Iter-1150 loss: 1.2500 validation: 0.987200
+Iter-1200 loss: 1.2536 validation: 0.986200
+Iter-1250 loss: 1.2504 validation: 0.987000
+Iter-1300 loss: 1.2511 validation: 0.987400
+Iter-1350 loss: 1.2513 validation: 0.986600
+Iter-1400 loss: 1.2515 validation: 0.987200
+Iter-1450 loss: 1.2511 validation: 0.986200
+Iter-1500 loss: 1.2506 validation: 0.986600
+Iter-50 loss: 1.4688 validation: 0.892800
+Iter-100 loss: 1.4675 validation: 0.953800
+Iter-150 loss: 1.3611 validation: 0.957200
+Iter-200 loss: 1.2609 validation: 0.965800
+Iter-250 loss: 1.2328 validation: 0.947600
+Iter-300 loss: 1.3238 validation: 0.971600
+Iter-350 loss: 1.3192 validation: 0.980000
+Iter-400 loss: 1.3408 validation: 0.953400
+Iter-450 loss: 1.2395 validation: 0.976600
+Iter-500 loss: 1.3056 validation: 0.980800
+Iter-550 loss: 1.2416 validation: 0.980400
+Iter-600 loss: 1.2431 validation: 0.977400
+Iter-650 loss: 1.2437 validation: 0.980200
+Iter-700 loss: 1.2423 validation: 0.980600
+Iter-750 loss: 1.2802 validation: 0.984000
+Iter-800 loss: 1.2847 validation: 0.980600
+Iter-850 loss: 1.3650 validation: 0.981800
+Iter-900 loss: 1.2959 validation: 0.982000
+Iter-950 loss: 1.2503 validation: 0.984400
+Iter-1000 loss: 1.3483 validation: 0.983000
+Iter-1050 loss: 1.2895 validation: 0.983600
+Iter-1100 loss: 1.2687 validation: 0.982600
+Iter-1150 loss: 1.2862 validation: 0.981800
+Iter-1200 loss: 1.2751 validation: 0.985200
+Iter-1250 loss: 1.2848 validation: 0.986200
+Iter-1300 loss: 1.2621 validation: 0.986800
+Iter-1350 loss: 1.2834 validation: 0.985600
+Iter-1400 loss: 1.2682 validation: 0.982400
+Iter-1450 loss: 1.3160 validation: 0.986200
+Iter-1500 loss: 1.3041 validation: 0.985600
+
+Mean accuracy 1: 0.9814, std: 0.0000
+Mean accuracy 2: 0.9795, std: 0.0000
+Mean accuracy 3: 0.9832, std: 0.0000
+Mean accuracy 4: 0.9822, std: 0.0000
+Mean accuracy :0.9838,std :0.0000
+Mean accuracy :0.9845,std :0.0000
+8 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.4364 validation: 0.910400 
+
+Iter-50 worker 2, loss: 1.2790 validation: 0.929000 
+
+Iter-50 worker 3, loss: 1.2762 validation: 0.936200 
+
+Iter-50 worker 4, loss: 1.4287 validation: 0.942200 
+
+Iter-50 average loss 1.3550849122413826 
+Iter-100 worker 1, loss: 1.3212 validation: 0.956800 
+
+Iter-100 worker 2, loss: 1.4029 validation: 0.954600 
+
+Iter-100 worker 3, loss: 1.2553 validation: 0.946400 
+
+Iter-100 worker 4, loss: 1.3021 validation: 0.960000 
+
+Iter-100 average loss 1.3203873018683172 
+Iter-150 worker 1, loss: 1.2791 validation: 0.952600 
+
+Iter-150 worker 2, loss: 1.4149 validation: 0.954400 
+
+Iter-150 worker 3, loss: 1.3024 validation: 0.966200 
+
+Iter-150 worker 4, loss: 1.2249 validation: 0.964800 
+
+Iter-150 average loss 1.305329911907852 
+Iter-200 worker 1, loss: 1.3541 validation: 0.956800 
+
+Iter-200 worker 2, loss: 1.2766 validation: 0.960800 
+
+Iter-200 worker 3, loss: 1.2739 validation: 0.968800 
+
+Iter-200 worker 4, loss: 1.3144 validation: 0.972800 
+
+Iter-200 average loss 1.304736088848979 
+Iter-250 worker 1, loss: 1.2681 validation: 0.968800 
+
+Iter-250 worker 2, loss: 1.2490 validation: 0.970800 
+
+Iter-250 worker 3, loss: 1.3046 validation: 0.968600 
+
+Iter-250 worker 4, loss: 1.3706 validation: 0.972000 
+
+Iter-250 average loss 1.2980812137973068 
+Iter-300 worker 1, loss: 1.2760 validation: 0.968800 
+
+Iter-300 worker 2, loss: 1.2176 validation: 0.971800 
+
+Iter-300 worker 3, loss: 1.2482 validation: 0.969200 
+
+Iter-300 worker 4, loss: 1.2857 validation: 0.972800 
+
+Iter-300 average loss 1.2568635282851206 
+Iter-350 worker 1, loss: 1.3465 validation: 0.971200 
+
+Iter-350 worker 2, loss: 1.2721 validation: 0.974200 
+
+Iter-350 worker 3, loss: 1.2347 validation: 0.969400 
+
+Iter-350 worker 4, loss: 1.3568 validation: 0.976000 
+
+Iter-350 average loss 1.3025371801702872 
+Iter-400 worker 1, loss: 1.2188 validation: 0.969200 
+
+Iter-400 worker 2, loss: 1.2471 validation: 0.973000 
+
+Iter-400 worker 3, loss: 1.2512 validation: 0.970000 
+
+Iter-400 worker 4, loss: 1.2302 validation: 0.978000 
+
+Iter-400 average loss 1.236846871397137 
+Iter-450 worker 1, loss: 1.2728 validation: 0.977000 
+
+Iter-450 worker 2, loss: 1.2770 validation: 0.976400 
+
+Iter-450 worker 3, loss: 1.2349 validation: 0.976800 
+
+Iter-450 worker 4, loss: 1.2431 validation: 0.979200 
+
+Iter-450 average loss 1.2569396903298884 
+Iter-500 worker 1, loss: 1.3059 validation: 0.975800 
+
+Iter-500 worker 2, loss: 1.2551 validation: 0.977400 
+
+Iter-500 worker 3, loss: 1.2600 validation: 0.976400 
+
+Iter-500 worker 4, loss: 1.2934 validation: 0.980600 
+
+Iter-500 average loss 1.278598606440441 
+Iter-550 worker 1, loss: 1.2346 validation: 0.972200 
+
+Iter-550 worker 2, loss: 1.3130 validation: 0.976000 
+
+Iter-550 worker 3, loss: 1.2524 validation: 0.974000 
+
+Iter-550 worker 4, loss: 1.2332 validation: 0.980800 
+
+Iter-550 average loss 1.2582889165748952 
+Iter-600 worker 1, loss: 1.2303 validation: 0.975400 
+
+Iter-600 worker 2, loss: 1.2328 validation: 0.977400 
+
+Iter-600 worker 3, loss: 1.2429 validation: 0.976000 
+
+Iter-600 worker 4, loss: 1.2337 validation: 0.978200 
+
+Iter-600 average loss 1.2349257003152427 
+Iter-650 worker 1, loss: 1.2364 validation: 0.977600 
+
+Iter-650 worker 2, loss: 1.2703 validation: 0.977000 
+
+Iter-650 worker 3, loss: 1.2272 validation: 0.973800 
+
+Iter-650 worker 4, loss: 1.2317 validation: 0.977000 
+
+Iter-650 average loss 1.24140356243829 
+Iter-700 worker 1, loss: 1.2230 validation: 0.973800 
+
+Iter-700 worker 2, loss: 1.2572 validation: 0.969800 
+
+Iter-700 worker 3, loss: 1.2381 validation: 0.974400 
+
+Iter-700 worker 4, loss: 1.2645 validation: 0.981600 
+
+Iter-700 average loss 1.2457121786910053 
+Iter-750 worker 1, loss: 1.2762 validation: 0.978200 
+
+Iter-750 worker 2, loss: 1.2347 validation: 0.971800 
+
+Iter-750 worker 3, loss: 1.2794 validation: 0.977000 
+
+Iter-750 worker 4, loss: 1.2329 validation: 0.979600 
+
+Iter-750 average loss 1.2558135895126181 
+Iter-800 worker 1, loss: 1.2217 validation: 0.977800 
+
+Iter-800 worker 2, loss: 1.2310 validation: 0.980600 
+
+Iter-800 worker 3, loss: 1.2335 validation: 0.975000 
+
+Iter-800 worker 4, loss: 1.2366 validation: 0.982800 
+
+Iter-800 average loss 1.2306986725992362 
+Iter-850 worker 1, loss: 1.2207 validation: 0.976800 
+
+Iter-850 worker 2, loss: 1.2578 validation: 0.980200 
+
+Iter-850 worker 3, loss: 1.2345 validation: 0.975800 
+
+Iter-850 worker 4, loss: 1.2351 validation: 0.981600 
+
+Iter-850 average loss 1.2370264936239161 
+Iter-900 worker 1, loss: 1.2206 validation: 0.978200 
+
+Iter-900 worker 2, loss: 1.2309 validation: 0.980600 
+
+Iter-900 worker 3, loss: 1.2325 validation: 0.977800 
+
+Iter-900 worker 4, loss: 1.2363 validation: 0.982600 
+
+Iter-900 average loss 1.230097200992355 
+Iter-950 worker 1, loss: 1.2316 validation: 0.979600 
+
+Iter-950 worker 2, loss: 1.2399 validation: 0.977600 
+
+Iter-950 worker 3, loss: 1.2356 validation: 0.979600 
+
+Iter-950 worker 4, loss: 1.2369 validation: 0.983000 
+
+Iter-950 average loss 1.2360016538366552 
+Iter-1000 worker 1, loss: 1.2194 validation: 0.977800 
+
+Iter-1000 worker 2, loss: 1.2304 validation: 0.979800 
+
+Iter-1000 worker 3, loss: 1.2338 validation: 0.978800 
+
+Iter-1000 worker 4, loss: 1.2361 validation: 0.983200 
+
+Iter-1000 average loss 1.2299291448567884 
+Iter-1050 worker 1, loss: 1.2187 validation: 0.975600 
+
+Iter-1050 worker 2, loss: 1.2307 validation: 0.979800 
+
+Iter-1050 worker 3, loss: 1.2414 validation: 0.977600 
+
+Iter-1050 worker 4, loss: 1.2698 validation: 0.983200 
+
+Iter-1050 average loss 1.2401393753164613 
+Iter-1100 worker 1, loss: 1.2229 validation: 0.980800 
+
+Iter-1100 worker 2, loss: 1.2293 validation: 0.982000 
+
+Iter-1100 worker 3, loss: 1.2498 validation: 0.980200 
+
+Iter-1100 worker 4, loss: 1.2378 validation: 0.980800 
+
+Iter-1100 average loss 1.2349311619960976 
+Iter-1150 worker 1, loss: 1.2915 validation: 0.980800 
+
+Iter-1150 worker 2, loss: 1.2396 validation: 0.982000 
+
+Iter-1150 worker 3, loss: 1.2348 validation: 0.980000 
+
+Iter-1150 worker 4, loss: 1.2371 validation: 0.982600 
+
+Iter-1150 average loss 1.250741744819217 
+Iter-1200 worker 1, loss: 1.2265 validation: 0.979800 
+
+Iter-1200 worker 2, loss: 1.2303 validation: 0.981600 
+
+Iter-1200 worker 3, loss: 1.2418 validation: 0.980800 
+
+Iter-1200 worker 4, loss: 1.2372 validation: 0.982600 
+
+Iter-1200 average loss 1.2339374437824868 
+Iter-1250 worker 1, loss: 1.2704 validation: 0.981800 
+
+Iter-1250 worker 2, loss: 1.2327 validation: 0.983000 
+
+Iter-1250 worker 3, loss: 1.2371 validation: 0.980200 
+
+Iter-1250 worker 4, loss: 1.2364 validation: 0.983800 
+
+Iter-1250 average loss 1.244155621231146 
+Iter-1300 worker 1, loss: 1.2265 validation: 0.981800 
+
+Iter-1300 worker 2, loss: 1.2378 validation: 0.982600 
+
+Iter-1300 worker 3, loss: 1.2376 validation: 0.980600 
+
+Iter-1300 worker 4, loss: 1.2433 validation: 0.982800 
+
+Iter-1300 average loss 1.236306354679803 
+Iter-1350 worker 1, loss: 1.2240 validation: 0.983600 
+
+Iter-1350 worker 2, loss: 1.2308 validation: 0.982800 
+
+Iter-1350 worker 3, loss: 1.2363 validation: 0.982400 
+
+Iter-1350 worker 4, loss: 1.2376 validation: 0.982600 
+
+Iter-1350 average loss 1.2321795016691117 
+Iter-1400 worker 1, loss: 1.2258 validation: 0.980400 
+
+Iter-1400 worker 2, loss: 1.2317 validation: 0.982800 
+
+Iter-1400 worker 3, loss: 1.2405 validation: 0.979800 
+
+Iter-1400 worker 4, loss: 1.2378 validation: 0.983000 
+
+Iter-1400 average loss 1.2339466661793246 
+Iter-1450 worker 1, loss: 1.2250 validation: 0.978400 
+
+Iter-1450 worker 2, loss: 1.2312 validation: 0.982400 
+
+Iter-1450 worker 3, loss: 1.2412 validation: 0.980400 
+
+Iter-1450 worker 4, loss: 1.2397 validation: 0.984200 
+
+Iter-1450 average loss 1.2342650052613842 
+Iter-1500 worker 1, loss: 1.2261 validation: 0.980600 
+
+Iter-1500 worker 2, loss: 1.2319 validation: 0.982400 
+
+Iter-1500 worker 3, loss: 1.2382 validation: 0.981800 
+
+Iter-1500 worker 4, loss: 1.2367 validation: 0.983800 
+
+Iter-1500 average loss 1.2331970081576502 
+Iter-50 loss: 1.3272 validation: 0.921000
+Iter-100 loss: 1.3889 validation: 0.953200
+Iter-150 loss: 1.2948 validation: 0.956600
+Iter-200 loss: 1.3443 validation: 0.970800
+Iter-250 loss: 1.2861 validation: 0.971600
+Iter-300 loss: 1.2509 validation: 0.976400
+Iter-350 loss: 1.2559 validation: 0.969600
+Iter-400 loss: 1.2450 validation: 0.978800
+Iter-450 loss: 1.2563 validation: 0.980800
+Iter-500 loss: 1.2489 validation: 0.980400
+Iter-550 loss: 1.2537 validation: 0.979000
+Iter-600 loss: 1.2560 validation: 0.980400
+Iter-650 loss: 1.2498 validation: 0.980600
+Iter-700 loss: 1.2586 validation: 0.981800
+Iter-750 loss: 1.2601 validation: 0.981600
+Iter-800 loss: 1.2519 validation: 0.983200
+Iter-850 loss: 1.2627 validation: 0.981400
+Iter-900 loss: 1.2573 validation: 0.983800
+Iter-950 loss: 1.2539 validation: 0.980400
+Iter-1000 loss: 1.2571 validation: 0.982600
+Iter-1050 loss: 1.2635 validation: 0.984000
+Iter-1100 loss: 1.2580 validation: 0.983200
+Iter-1150 loss: 1.2575 validation: 0.983800
+Iter-1200 loss: 1.2574 validation: 0.984000
+Iter-1250 loss: 1.2558 validation: 0.985600
+Iter-1300 loss: 1.2562 validation: 0.985200
+Iter-1350 loss: 1.2571 validation: 0.984800
+Iter-1400 loss: 1.2570 validation: 0.985000
+Iter-1450 loss: 1.2562 validation: 0.985400
+Iter-1500 loss: 1.2569 validation: 0.985000
+Iter-50 loss: 1.3950 validation: 0.938400
+Iter-100 loss: 1.3716 validation: 0.947800
+Iter-150 loss: 1.3922 validation: 0.960200
+Iter-200 loss: 1.2604 validation: 0.968200
+Iter-250 loss: 1.2740 validation: 0.971800
+Iter-300 loss: 1.2545 validation: 0.978200
+Iter-350 loss: 1.2572 validation: 0.972600
+Iter-400 loss: 1.4260 validation: 0.981200
+Iter-450 loss: 1.3209 validation: 0.983000
+Iter-500 loss: 1.2796 validation: 0.980800
+Iter-550 loss: 1.3066 validation: 0.974800
+Iter-600 loss: 1.3806 validation: 0.985400
+Iter-650 loss: 1.2687 validation: 0.982600
+Iter-700 loss: 1.2580 validation: 0.979200
+Iter-750 loss: 1.2591 validation: 0.982400
+Iter-800 loss: 1.2628 validation: 0.986000
+Iter-850 loss: 1.2656 validation: 0.984200
+Iter-900 loss: 1.3033 validation: 0.986400
+Iter-950 loss: 1.2784 validation: 0.982800
+Iter-1000 loss: 1.2674 validation: 0.987600
+Iter-1050 loss: 1.2648 validation: 0.986200
+Iter-1100 loss: 1.3531 validation: 0.983600
+Iter-1150 loss: 1.2979 validation: 0.987800
+Iter-1200 loss: 1.2820 validation: 0.989600
+Iter-1250 loss: 1.2715 validation: 0.986600
+Iter-1300 loss: 1.3123 validation: 0.986600
+Iter-1350 loss: 1.2789 validation: 0.982600
+Iter-1400 loss: 1.2745 validation: 0.986400
+Iter-1450 loss: 1.2742 validation: 0.987800
+Iter-1500 loss: 1.2760 validation: 0.990200
+
+Mean accuracy 1: 0.9810, std: 0.0000
+Mean accuracy 2: 0.9821, std: 0.0000
+Mean accuracy 3: 0.9839, std: 0.0000
+Mean accuracy 4: 0.9847, std: 0.0000
+Mean accuracy :0.9847,std :0.0000
+Mean accuracy :0.9891,std :0.0000
+9 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.4612 validation: 0.923400 
+
+Iter-50 worker 2, loss: 1.3755 validation: 0.913800 
+
+Iter-50 worker 3, loss: 1.4121 validation: 0.921000 
+
+Iter-50 worker 4, loss: 1.4178 validation: 0.921200 
+
+Iter-50 average loss 1.4166473081343072 
+Iter-100 worker 1, loss: 1.3790 validation: 0.951000 
+
+Iter-100 worker 2, loss: 1.4458 validation: 0.944600 
+
+Iter-100 worker 3, loss: 1.3137 validation: 0.960000 
+
+Iter-100 worker 4, loss: 1.3706 validation: 0.954400 
+
+Iter-100 average loss 1.3772763363241538 
+Iter-150 worker 1, loss: 1.2386 validation: 0.934000 
+
+Iter-150 worker 2, loss: 1.2652 validation: 0.963800 
+
+Iter-150 worker 3, loss: 1.4345 validation: 0.962000 
+
+Iter-150 worker 4, loss: 1.2581 validation: 0.959000 
+
+Iter-150 average loss 1.2990768474381 
+Iter-200 worker 1, loss: 1.3299 validation: 0.964800 
+
+Iter-200 worker 2, loss: 1.2235 validation: 0.968600 
+
+Iter-200 worker 3, loss: 1.3773 validation: 0.950200 
+
+Iter-200 worker 4, loss: 1.2853 validation: 0.966800 
+
+Iter-200 average loss 1.3039846426292008 
+Iter-250 worker 1, loss: 1.2579 validation: 0.971400 
+
+Iter-250 worker 2, loss: 1.2983 validation: 0.952000 
+
+Iter-250 worker 3, loss: 1.2338 validation: 0.966600 
+
+Iter-250 worker 4, loss: 1.2493 validation: 0.964600 
+
+Iter-250 average loss 1.259795449183043 
+Iter-300 worker 1, loss: 1.2411 validation: 0.968800 
+
+Iter-300 worker 2, loss: 1.2344 validation: 0.967400 
+
+Iter-300 worker 3, loss: 1.2367 validation: 0.971200 
+
+Iter-300 worker 4, loss: 1.3094 validation: 0.973200 
+
+Iter-300 average loss 1.2553963649292643 
+Iter-350 worker 1, loss: 1.3420 validation: 0.974000 
+
+Iter-350 worker 2, loss: 1.2235 validation: 0.973400 
+
+Iter-350 worker 3, loss: 1.3053 validation: 0.972200 
+
+Iter-350 worker 4, loss: 1.3652 validation: 0.974800 
+
+Iter-350 average loss 1.3089919070417224 
+Iter-400 worker 1, loss: 1.2492 validation: 0.976200 
+
+Iter-400 worker 2, loss: 1.2837 validation: 0.969000 
+
+Iter-400 worker 3, loss: 1.2583 validation: 0.976200 
+
+Iter-400 worker 4, loss: 1.2344 validation: 0.974600 
+
+Iter-400 average loss 1.2563772481260278 
+Iter-450 worker 1, loss: 1.2563 validation: 0.974400 
+
+Iter-450 worker 2, loss: 1.2329 validation: 0.973800 
+
+Iter-450 worker 3, loss: 1.2950 validation: 0.968800 
+
+Iter-450 worker 4, loss: 1.2255 validation: 0.974800 
+
+Iter-450 average loss 1.252458360937229 
+Iter-500 worker 1, loss: 1.2444 validation: 0.975600 
+
+Iter-500 worker 2, loss: 1.2297 validation: 0.977000 
+
+Iter-500 worker 3, loss: 1.2242 validation: 0.976600 
+
+Iter-500 worker 4, loss: 1.2309 validation: 0.977400 
+
+Iter-500 average loss 1.2323151479008814 
+Iter-550 worker 1, loss: 1.2609 validation: 0.977800 
+
+Iter-550 worker 2, loss: 1.2178 validation: 0.979200 
+
+Iter-550 worker 3, loss: 1.2447 validation: 0.979000 
+
+Iter-550 worker 4, loss: 1.2340 validation: 0.976000 
+
+Iter-550 average loss 1.2393476825256846 
+Iter-600 worker 1, loss: 1.2511 validation: 0.974600 
+
+Iter-600 worker 2, loss: 1.2204 validation: 0.974600 
+
+Iter-600 worker 3, loss: 1.2236 validation: 0.978200 
+
+Iter-600 worker 4, loss: 1.2411 validation: 0.977400 
+
+Iter-600 average loss 1.234048563908788 
+Iter-650 worker 1, loss: 1.2755 validation: 0.978200 
+
+Iter-650 worker 2, loss: 1.2297 validation: 0.978400 
+
+Iter-650 worker 3, loss: 1.2280 validation: 0.977200 
+
+Iter-650 worker 4, loss: 1.2336 validation: 0.975800 
+
+Iter-650 average loss 1.2416915218367357 
+Iter-700 worker 1, loss: 1.2612 validation: 0.978800 
+
+Iter-700 worker 2, loss: 1.2241 validation: 0.979600 
+
+Iter-700 worker 3, loss: 1.3051 validation: 0.979800 
+
+Iter-700 worker 4, loss: 1.2304 validation: 0.978600 
+
+Iter-700 average loss 1.2552134989101693 
+Iter-750 worker 1, loss: 1.2728 validation: 0.980800 
+
+Iter-750 worker 2, loss: 1.2959 validation: 0.975800 
+
+Iter-750 worker 3, loss: 1.2432 validation: 0.978600 
+
+Iter-750 worker 4, loss: 1.2321 validation: 0.978000 
+
+Iter-750 average loss 1.2610017810800624 
+Iter-800 worker 1, loss: 1.2507 validation: 0.977200 
+
+Iter-800 worker 2, loss: 1.2377 validation: 0.979400 
+
+Iter-800 worker 3, loss: 1.2286 validation: 0.980800 
+
+Iter-800 worker 4, loss: 1.2640 validation: 0.980600 
+
+Iter-800 average loss 1.2452403009800788 
+Iter-850 worker 1, loss: 1.2734 validation: 0.981400 
+
+Iter-850 worker 2, loss: 1.2799 validation: 0.981000 
+
+Iter-850 worker 3, loss: 1.2265 validation: 0.980600 
+
+Iter-850 worker 4, loss: 1.2487 validation: 0.981200 
+
+Iter-850 average loss 1.257140004629842 
+Iter-900 worker 1, loss: 1.3499 validation: 0.977400 
+
+Iter-900 worker 2, loss: 1.2235 validation: 0.977400 
+
+Iter-900 worker 3, loss: 1.2351 validation: 0.981600 
+
+Iter-900 worker 4, loss: 1.2340 validation: 0.980400 
+
+Iter-900 average loss 1.2606181276847246 
+Iter-950 worker 1, loss: 1.2506 validation: 0.978200 
+
+Iter-950 worker 2, loss: 1.2301 validation: 0.979000 
+
+Iter-950 worker 3, loss: 1.2293 validation: 0.981800 
+
+Iter-950 worker 4, loss: 1.2354 validation: 0.980200 
+
+Iter-950 average loss 1.236355518189849 
+Iter-1000 worker 1, loss: 1.2519 validation: 0.982000 
+
+Iter-1000 worker 2, loss: 1.2502 validation: 0.980600 
+
+Iter-1000 worker 3, loss: 1.2410 validation: 0.981000 
+
+Iter-1000 worker 4, loss: 1.2316 validation: 0.980800 
+
+Iter-1000 average loss 1.2436737203825272 
+Iter-1050 worker 1, loss: 1.2559 validation: 0.980400 
+
+Iter-1050 worker 2, loss: 1.2346 validation: 0.981000 
+
+Iter-1050 worker 3, loss: 1.2325 validation: 0.980200 
+
+Iter-1050 worker 4, loss: 1.2318 validation: 0.981800 
+
+Iter-1050 average loss 1.2386845621319844 
+Iter-1100 worker 1, loss: 1.2470 validation: 0.980200 
+
+Iter-1100 worker 2, loss: 1.2272 validation: 0.980800 
+
+Iter-1100 worker 3, loss: 1.2341 validation: 0.979800 
+
+Iter-1100 worker 4, loss: 1.2366 validation: 0.978000 
+
+Iter-1100 average loss 1.2362384503072819 
+Iter-1150 worker 1, loss: 1.2698 validation: 0.979200 
+
+Iter-1150 worker 2, loss: 1.2258 validation: 0.982400 
+
+Iter-1150 worker 3, loss: 1.2338 validation: 0.981200 
+
+Iter-1150 worker 4, loss: 1.2348 validation: 0.982000 
+
+Iter-1150 average loss 1.2410523599536567 
+Iter-1200 worker 1, loss: 1.2478 validation: 0.979200 
+
+Iter-1200 worker 2, loss: 1.2743 validation: 0.982200 
+
+Iter-1200 worker 3, loss: 1.2329 validation: 0.981800 
+
+Iter-1200 worker 4, loss: 1.2360 validation: 0.979600 
+
+Iter-1200 average loss 1.2477701304489965 
+Iter-1250 worker 1, loss: 1.2479 validation: 0.980600 
+
+Iter-1250 worker 2, loss: 1.2265 validation: 0.981800 
+
+Iter-1250 worker 3, loss: 1.2361 validation: 0.981000 
+
+Iter-1250 worker 4, loss: 1.2390 validation: 0.982800 
+
+Iter-1250 average loss 1.237373681440025 
+Iter-1300 worker 1, loss: 1.2553 validation: 0.980800 
+
+Iter-1300 worker 2, loss: 1.2267 validation: 0.981000 
+
+Iter-1300 worker 3, loss: 1.2342 validation: 0.980600 
+
+Iter-1300 worker 4, loss: 1.2338 validation: 0.983600 
+
+Iter-1300 average loss 1.2375058799430512 
+Iter-1350 worker 1, loss: 1.2483 validation: 0.981800 
+
+Iter-1350 worker 2, loss: 1.2330 validation: 0.979600 
+
+Iter-1350 worker 3, loss: 1.2383 validation: 0.980400 
+
+Iter-1350 worker 4, loss: 1.2388 validation: 0.982600 
+
+Iter-1350 average loss 1.239600888326748 
+Iter-1400 worker 1, loss: 1.2520 validation: 0.983400 
+
+Iter-1400 worker 2, loss: 1.2284 validation: 0.982400 
+
+Iter-1400 worker 3, loss: 1.2335 validation: 0.982200 
+
+Iter-1400 worker 4, loss: 1.2344 validation: 0.982200 
+
+Iter-1400 average loss 1.2370725289246907 
+Iter-1450 worker 1, loss: 1.2509 validation: 0.982600 
+
+Iter-1450 worker 2, loss: 1.2287 validation: 0.983000 
+
+Iter-1450 worker 3, loss: 1.2436 validation: 0.981400 
+
+Iter-1450 worker 4, loss: 1.2352 validation: 0.982800 
+
+Iter-1450 average loss 1.2395954663772744 
+Iter-1500 worker 1, loss: 1.3064 validation: 0.984200 
+
+Iter-1500 worker 2, loss: 1.2427 validation: 0.982400 
+
+Iter-1500 worker 3, loss: 1.2358 validation: 0.981000 
+
+Iter-1500 worker 4, loss: 1.2358 validation: 0.981800 
+
+Iter-1500 average loss 1.2551879171763773 
+Iter-50 loss: 1.5839 validation: 0.945600
+Iter-100 loss: 1.3924 validation: 0.948600
+Iter-150 loss: 1.3145 validation: 0.958400
+Iter-200 loss: 1.3939 validation: 0.945400
+Iter-250 loss: 1.2169 validation: 0.971000
+Iter-300 loss: 1.2454 validation: 0.958200
+Iter-350 loss: 1.2840 validation: 0.975800
+Iter-400 loss: 1.2305 validation: 0.981200
+Iter-450 loss: 1.2799 validation: 0.976800
+Iter-500 loss: 1.2488 validation: 0.981000
+Iter-550 loss: 1.2300 validation: 0.981200
+Iter-600 loss: 1.2438 validation: 0.979800
+Iter-650 loss: 1.2324 validation: 0.982600
+Iter-700 loss: 1.2384 validation: 0.982800
+Iter-750 loss: 1.2317 validation: 0.981400
+Iter-800 loss: 1.2316 validation: 0.979400
+Iter-850 loss: 1.2351 validation: 0.984200
+Iter-900 loss: 1.2320 validation: 0.985000
+Iter-950 loss: 1.2322 validation: 0.984800
+Iter-1000 loss: 1.2338 validation: 0.982800
+Iter-1050 loss: 1.2339 validation: 0.984200
+Iter-1100 loss: 1.2340 validation: 0.984400
+Iter-1150 loss: 1.2331 validation: 0.985600
+Iter-1200 loss: 1.2380 validation: 0.985000
+Iter-1250 loss: 1.2351 validation: 0.985200
+Iter-1300 loss: 1.2341 validation: 0.984800
+Iter-1350 loss: 1.2351 validation: 0.985400
+Iter-1400 loss: 1.2341 validation: 0.984800
+Iter-1450 loss: 1.2347 validation: 0.984600
+Iter-1500 loss: 1.2345 validation: 0.985000
+Iter-50 loss: 1.3956 validation: 0.940000
+Iter-100 loss: 1.3299 validation: 0.946600
+Iter-150 loss: 1.3896 validation: 0.969000
+Iter-200 loss: 1.3421 validation: 0.956000
+Iter-250 loss: 1.2644 validation: 0.968800
+Iter-300 loss: 1.3191 validation: 0.973200
+Iter-350 loss: 1.3181 validation: 0.978000
+Iter-400 loss: 1.2684 validation: 0.975600
+Iter-450 loss: 1.2502 validation: 0.977800
+Iter-500 loss: 1.3372 validation: 0.980200
+Iter-550 loss: 1.2644 validation: 0.984600
+Iter-600 loss: 1.3679 validation: 0.983800
+Iter-650 loss: 1.2500 validation: 0.985400
+Iter-700 loss: 1.2783 validation: 0.984800
+Iter-750 loss: 1.3349 validation: 0.986600
+Iter-800 loss: 1.2778 validation: 0.986000
+Iter-850 loss: 1.2726 validation: 0.985800
+Iter-900 loss: 1.2529 validation: 0.985800
+Iter-950 loss: 1.3055 validation: 0.985200
+Iter-1000 loss: 1.3057 validation: 0.987200
+Iter-1050 loss: 1.2646 validation: 0.988200
+Iter-1100 loss: 1.3414 validation: 0.987200
+Iter-1150 loss: 1.2793 validation: 0.986000
+Iter-1200 loss: 1.3201 validation: 0.984400
+Iter-1250 loss: 1.2837 validation: 0.987200
+Iter-1300 loss: 1.3324 validation: 0.985600
+Iter-1350 loss: 1.2867 validation: 0.984200
+Iter-1400 loss: 1.3822 validation: 0.984400
+Iter-1450 loss: 1.2871 validation: 0.986400
+Iter-1500 loss: 1.2748 validation: 0.987400
+
+Mean accuracy 1: 0.9792, std: 0.0000
+Mean accuracy 2: 0.9842, std: 0.0000
+Mean accuracy 3: 0.9817, std: 0.0000
+Mean accuracy 4: 0.9806, std: 0.0000
+Mean accuracy :0.9855,std :0.0000
+Mean accuracy :0.9853,std :0.0000
+10 epoch
+/home/wzd/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/wzd/桌面/deepchain2/deepchain/deepchain/hipsternet/split_mnist.py:8: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /home/wzd/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+Extracting MNIST_Data/train-images-idx3-ubyte.gz
+Extracting MNIST_Data/train-labels-idx1-ubyte.gz
+Extracting MNIST_Data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_Data/t10k-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+(13750, 784)
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750,)
+M 13750 D 784 C 10 
+(13750, 1, 28, 28)
+
+Experimenting on sgd3
+
+Experiment-1
+Iter-50 worker 1, loss: 1.3554 validation: 0.922200 
+
+Iter-50 worker 2, loss: 1.3713 validation: 0.932000 
+
+Iter-50 worker 3, loss: 1.4031 validation: 0.910000 
+
+Iter-50 worker 4, loss: 1.2314 validation: 0.930200 
+
+Iter-50 average loss 1.34031127140893 
+Iter-100 worker 1, loss: 1.2980 validation: 0.947600 
+
+Iter-100 worker 2, loss: 1.3080 validation: 0.948200 
+
+Iter-100 worker 3, loss: 1.3466 validation: 0.945600 
+
+Iter-100 worker 4, loss: 1.3809 validation: 0.949200 
+
+Iter-100 average loss 1.3333757862556501 
+Iter-150 worker 1, loss: 1.3109 validation: 0.958200 
+
+Iter-150 worker 2, loss: 1.2696 validation: 0.955000 
+
+Iter-150 worker 3, loss: 1.2637 validation: 0.956200 
+
+Iter-150 worker 4, loss: 1.3953 validation: 0.960400 
+
+Iter-150 average loss 1.3098580656660548 
+Iter-200 worker 1, loss: 1.5168 validation: 0.943400 
+
+Iter-200 worker 2, loss: 1.2984 validation: 0.964400 
+
+Iter-200 worker 3, loss: 1.2540 validation: 0.965400 
+
+Iter-200 worker 4, loss: 1.2438 validation: 0.964600 
+
+Iter-200 average loss 1.3282770994233442 
+Iter-250 worker 1, loss: 1.2181 validation: 0.957600 
+
+Iter-250 worker 2, loss: 1.2885 validation: 0.969200 
+
+Iter-250 worker 3, loss: 1.3370 validation: 0.965400 
+
+Iter-250 worker 4, loss: 1.2433 validation: 0.969600 
+
+Iter-250 average loss 1.271733563357108 
+Iter-300 worker 1, loss: 1.2361 validation: 0.969000 
+
+Iter-300 worker 2, loss: 1.3499 validation: 0.970200 
+
+Iter-300 worker 3, loss: 1.2642 validation: 0.971000 
+
+Iter-300 worker 4, loss: 1.2403 validation: 0.969400 
+
+Iter-300 average loss 1.2726086257778069 
+Iter-350 worker 1, loss: 1.2283 validation: 0.974600 
+
+Iter-350 worker 2, loss: 1.3408 validation: 0.974400 
+
+Iter-350 worker 3, loss: 1.2982 validation: 0.967400 
+
+Iter-350 worker 4, loss: 1.2944 validation: 0.969600 
+
+Iter-350 average loss 1.2904422486779108 
+Iter-400 worker 1, loss: 1.2303 validation: 0.975000 
+
+Iter-400 worker 2, loss: 1.3623 validation: 0.972600 
+
+Iter-400 worker 3, loss: 1.2399 validation: 0.976600 
+
+Iter-400 worker 4, loss: 1.4487 validation: 0.975600 
+
+Iter-400 average loss 1.3202869422399885 
+Iter-450 worker 1, loss: 1.3454 validation: 0.974000 
+
+Iter-450 worker 2, loss: 1.2536 validation: 0.978000 
+
+Iter-450 worker 3, loss: 1.2850 validation: 0.973200 
+
+Iter-450 worker 4, loss: 1.2428 validation: 0.975000 
+
+Iter-450 average loss 1.281690711743046 
+Iter-500 worker 1, loss: 1.2918 validation: 0.972200 
+
+Iter-500 worker 2, loss: 1.2574 validation: 0.976000 
+
+Iter-500 worker 3, loss: 1.2662 validation: 0.975600 
+
+Iter-500 worker 4, loss: 1.2599 validation: 0.974800 
+
+Iter-500 average loss 1.2688208396206837 
+Iter-550 worker 1, loss: 1.2751 validation: 0.974800 
+
+Iter-550 worker 2, loss: 1.3244 validation: 0.974400 
+
+Iter-550 worker 3, loss: 1.2510 validation: 0.975000 
+
+Iter-550 worker 4, loss: 1.3522 validation: 0.976400 
+
+Iter-550 average loss 1.300696332258354 
+Iter-600 worker 1, loss: 1.2460 validation: 0.971800 
+
+Iter-600 worker 2, loss: 1.2474 validation: 0.972800 
+
+Iter-600 worker 3, loss: 1.2567 validation: 0.974400 
+
+Iter-600 worker 4, loss: 1.2223 validation: 0.978000 
+
+Iter-600 average loss 1.2430884092321746 
+Iter-650 worker 1, loss: 1.4033 validation: 0.978200 
+
+Iter-650 worker 2, loss: 1.2517 validation: 0.978000 
+
+Iter-650 worker 3, loss: 1.2790 validation: 0.979400 
+
+Iter-650 worker 4, loss: 1.2935 validation: 0.978800 
+
+Iter-650 average loss 1.3068411882755933 
+Iter-700 worker 1, loss: 1.2533 validation: 0.975800 
+
+Iter-700 worker 2, loss: 1.3081 validation: 0.979800 
+
+Iter-700 worker 3, loss: 1.2494 validation: 0.979000 
+
+Iter-700 worker 4, loss: 1.2294 validation: 0.977200 
+
+Iter-700 average loss 1.2600489323606865 
+Iter-750 worker 1, loss: 1.2632 validation: 0.978400 
+
+Iter-750 worker 2, loss: 1.2499 validation: 0.978400 
+
+Iter-750 worker 3, loss: 1.2618 validation: 0.976400 
+
+Iter-750 worker 4, loss: 1.3083 validation: 0.977600 
+
+Iter-750 average loss 1.2707789714528612 
+Iter-800 worker 1, loss: 1.2756 validation: 0.978400 
+
+Iter-800 worker 2, loss: 1.2518 validation: 0.979000 
+
+Iter-800 worker 3, loss: 1.2475 validation: 0.977800 
+
+Iter-800 worker 4, loss: 1.2541 validation: 0.975200 
+
+Iter-800 average loss 1.2572635377096446 
+Iter-850 worker 1, loss: 1.2255 validation: 0.979600 
+
+Iter-850 worker 2, loss: 1.2485 validation: 0.981000 
+
+Iter-850 worker 3, loss: 1.2786 validation: 0.981400 
+
+Iter-850 worker 4, loss: 1.2409 validation: 0.977600 
+
+Iter-850 average loss 1.248356519057207 
+Iter-900 worker 1, loss: 1.2294 validation: 0.978800 
+
+Iter-900 worker 2, loss: 1.2511 validation: 0.979200 
+
+Iter-900 worker 3, loss: 1.2526 validation: 0.982800 
+
+Iter-900 worker 4, loss: 1.2396 validation: 0.980000 
+
+Iter-900 average loss 1.2431677234487832 
+Iter-950 worker 1, loss: 1.2243 validation: 0.979200 
+
+Iter-950 worker 2, loss: 1.2514 validation: 0.979400 
+
+Iter-950 worker 3, loss: 1.3458 validation: 0.979400 
+
+Iter-950 worker 4, loss: 1.2280 validation: 0.980400 
+
+Iter-950 average loss 1.2623731129219231 
+Iter-1000 worker 1, loss: 1.2429 validation: 0.979800 
+
+Iter-1000 worker 2, loss: 1.2555 validation: 0.983000 
+
+Iter-1000 worker 3, loss: 1.2480 validation: 0.981200 
+
+Iter-1000 worker 4, loss: 1.2309 validation: 0.981000 
+
+Iter-1000 average loss 1.2443178094558702 
+Iter-1050 worker 1, loss: 1.2282 validation: 0.978400 
+
+Iter-1050 worker 2, loss: 1.2652 validation: 0.982800 
+
+Iter-1050 worker 3, loss: 1.2732 validation: 0.980400 
+
+Iter-1050 worker 4, loss: 1.2368 validation: 0.979600 
+
+Iter-1050 average loss 1.2508441314367187 
+Iter-1100 worker 1, loss: 1.2309 validation: 0.979600 
+
+Iter-1100 worker 2, loss: 1.2542 validation: 0.981400 
+
+Iter-1100 worker 3, loss: 1.2598 validation: 0.978200 
+
+Iter-1100 worker 4, loss: 1.2315 validation: 0.980000 
+
+Iter-1100 average loss 1.2441216071896941 
+Iter-1150 worker 1, loss: 1.2344 validation: 0.976800 
+
+Iter-1150 worker 2, loss: 1.2613 validation: 0.980000 
+
+Iter-1150 worker 3, loss: 1.2532 validation: 0.983600 
+
+Iter-1150 worker 4, loss: 1.2323 validation: 0.981200 
+
+Iter-1150 average loss 1.2452757029473869 
+Iter-1200 worker 1, loss: 1.2332 validation: 0.979800 
+
+Iter-1200 worker 2, loss: 1.2547 validation: 0.980600 
+
+Iter-1200 worker 3, loss: 1.2594 validation: 0.983600 
+
+Iter-1200 worker 4, loss: 1.2317 validation: 0.979200 
+
+Iter-1200 average loss 1.2447398718380884 
+Iter-1250 worker 1, loss: 1.2351 validation: 0.978600 
+
+Iter-1250 worker 2, loss: 1.2574 validation: 0.981200 
+
+Iter-1250 worker 3, loss: 1.2509 validation: 0.982600 
+
+Iter-1250 worker 4, loss: 1.2687 validation: 0.980000 
+
+Iter-1250 average loss 1.2530306036739098 
+Iter-1300 worker 1, loss: 1.2304 validation: 0.981600 
+
+Iter-1300 worker 2, loss: 1.2527 validation: 0.981000 
+
+Iter-1300 worker 3, loss: 1.2528 validation: 0.984000 
+
+Iter-1300 worker 4, loss: 1.2323 validation: 0.981000 
+
+Iter-1300 average loss 1.2420474246241353 
+Iter-1350 worker 1, loss: 1.2354 validation: 0.976000 
+
+Iter-1350 worker 2, loss: 1.2546 validation: 0.981800 
+
+Iter-1350 worker 3, loss: 1.2532 validation: 0.983600 
+
+Iter-1350 worker 4, loss: 1.2337 validation: 0.981800 
+
+Iter-1350 average loss 1.2442201843256537 
+Iter-1400 worker 1, loss: 1.2301 validation: 0.981000 
+
+Iter-1400 worker 2, loss: 1.2647 validation: 0.982200 
+
+Iter-1400 worker 3, loss: 1.2529 validation: 0.982400 
+
+Iter-1400 worker 4, loss: 1.2356 validation: 0.981000 
+
+Iter-1400 average loss 1.2457946904473214 
+Iter-1450 worker 1, loss: 1.2311 validation: 0.983800 
+
+Iter-1450 worker 2, loss: 1.2536 validation: 0.981000 
+
+Iter-1450 worker 3, loss: 1.2544 validation: 0.982800 
+
+Iter-1450 worker 4, loss: 1.2389 validation: 0.981200 
+
+Iter-1450 average loss 1.244490550771064 
+Iter-1500 worker 1, loss: 1.2311 validation: 0.983400 
+
+Iter-1500 worker 2, loss: 1.2544 validation: 0.983400 
+
+Iter-1500 worker 3, loss: 1.2550 validation: 0.982200 
+
+Iter-1500 worker 4, loss: 1.2330 validation: 0.981600 
+
+Iter-1500 average loss 1.243358556431792 
+Iter-50 loss: 1.2244 validation: 0.911400
+Iter-100 loss: 1.2750 validation: 0.945400
+Iter-150 loss: 1.2418 validation: 0.964400
+Iter-200 loss: 1.2824 validation: 0.966400
+Iter-250 loss: 1.3114 validation: 0.973200
+Iter-300 loss: 1.2249 validation: 0.977400
+Iter-350 loss: 1.2226 validation: 0.979800
+Iter-400 loss: 1.3304 validation: 0.975400
+Iter-450 loss: 1.2631 validation: 0.980000
+Iter-500 loss: 1.2459 validation: 0.978200
+Iter-550 loss: 1.2373 validation: 0.977800
+Iter-600 loss: 1.2359 validation: 0.979400
+Iter-650 loss: 1.2853 validation: 0.977200
+Iter-700 loss: 1.2378 validation: 0.981600
+Iter-750 loss: 1.2395 validation: 0.980600
+Iter-800 loss: 1.2377 validation: 0.980400
+Iter-850 loss: 1.2379 validation: 0.984400
+Iter-900 loss: 1.2376 validation: 0.981200
+Iter-950 loss: 1.2469 validation: 0.979200
+Iter-1000 loss: 1.2405 validation: 0.983800
+Iter-1050 loss: 1.2410 validation: 0.984800
+Iter-1100 loss: 1.2430 validation: 0.985800
+Iter-1150 loss: 1.2420 validation: 0.983400
+Iter-1200 loss: 1.2418 validation: 0.986200
+Iter-1250 loss: 1.2425 validation: 0.984800
+Iter-1300 loss: 1.2435 validation: 0.984800
+Iter-1350 loss: 1.2425 validation: 0.986200
+Iter-1400 loss: 1.2419 validation: 0.986400
+Iter-1450 loss: 1.2423 validation: 0.984800
+Iter-1500 loss: 1.2417 validation: 0.984800
+Iter-50 loss: 1.4299 validation: 0.931600
+Iter-100 loss: 1.2438 validation: 0.938400
+Iter-150 loss: 1.3280 validation: 0.965600
+Iter-200 loss: 1.2656 validation: 0.970000
+Iter-250 loss: 1.2926 validation: 0.961800
+Iter-300 loss: 1.5274 validation: 0.969600
+Iter-350 loss: 1.3377 validation: 0.979200
+Iter-400 loss: 1.2663 validation: 0.972200
+Iter-450 loss: 1.3121 validation: 0.979800
+Iter-500 loss: 1.3125 validation: 0.980800
+Iter-550 loss: 1.5394 validation: 0.981800
+Iter-600 loss: 1.2661 validation: 0.981600
+Iter-650 loss: 1.3303 validation: 0.981600
+Iter-700 loss: 1.3151 validation: 0.983400
+Iter-750 loss: 1.2608 validation: 0.983400
+Iter-800 loss: 1.4193 validation: 0.982400
+Iter-850 loss: 1.3198 validation: 0.982800
+Iter-900 loss: 1.3104 validation: 0.985200
+Iter-950 loss: 1.3352 validation: 0.985200
+Iter-1000 loss: 1.3912 validation: 0.985400
+Iter-1050 loss: 1.2855 validation: 0.985600
+Iter-1100 loss: 1.2858 validation: 0.986400
+Iter-1150 loss: 1.2612 validation: 0.981400
+Iter-1200 loss: 1.3247 validation: 0.981000
+Iter-1250 loss: 1.2657 validation: 0.988200
+Iter-1300 loss: 1.2779 validation: 0.986800
+Iter-1350 loss: 1.2824 validation: 0.986000
+Iter-1400 loss: 1.2685 validation: 0.986800
+Iter-1450 loss: 1.2726 validation: 0.987600
+Iter-1500 loss: 1.2711 validation: 0.986200
+
+Mean accuracy 1: 0.9812, std: 0.0000
+Mean accuracy 2: 0.9839, std: 0.0000
+Mean accuracy 3: 0.9829, std: 0.0000
+Mean accuracy 4: 0.9813, std: 0.0000
+Mean accuracy :0.9844,std :0.0000
+Mean accuracy :0.9884,std :0.0000
+wzd@wzd-X455LJ:~/桌面/deepchain2/deepchain/deepchain$ 
+
